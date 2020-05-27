@@ -1,0 +1,23 @@
+<?php
+include("DataBase/dbConnect.php");
+?>
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <form action="PHP/contactProcess.php" method="POST"></br>
+        Your Name<input type="text" name="useraname"></br>
+        Your email <input type="email" name="email"></br>
+        Message<input type="text" name="message"></br>
+        <input type = "submit" name="submit">
+    </form>
+
+</body>
+
+</html>
