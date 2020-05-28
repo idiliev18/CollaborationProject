@@ -204,6 +204,8 @@ textarea {
     }
 }
 
+
+/*
 input[type=checkbox]+label {
     color: #ccc;
     font-style: italic;
@@ -217,6 +219,25 @@ input[type=checkbox]:checked+label {
 .card {
     width: 100px;
     height: 200px;
+}
+
+color: #f00;
+font-style: normal;
+
+}
+color: #f00;
+font-style: normal;
+
+}
+*/
+
+color: #f00;
+font-style: normal;
+
+}
+color: #f00;
+font-style: normal;
+
 }   color: #f00;
     font-style: normal;
 }
