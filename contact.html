@@ -7,6 +7,8 @@ include("DataBase/dbConnect.php");
 
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact Us</title>
         <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -18,20 +20,18 @@ include("DataBase/dbConnect.php");
     </head>
 
     <body>
-
-        <div class="introduction">
-            <nav>
-                <div id="logo">
-                    <h1>J&H</h1>
-                </div>
-                <div class="nav-links">
-                    <a href="index.html">Homepage</a>
-                    <a href="#">Lorem</a>
-                    <a href="aboutus.html">About us</a>
-                    <a href="contact.html">Contact us</a>
-                </div>
-            </nav>
-        </div>
+        <nav>
+            <div id="logo">
+                <h1>J&H</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Homepage</a>
+                <a href="#">Lorem</a>
+                <a href="about.html">About us</a>
+                <button class="translate-button translate-bg" data-lng="bg"><img src="../img/bg.svg" alt="bg" class="countryFlag"></button>
+                <button class="translate-button translate-en" data-lng="en"><img src="../img/en.jpg" alt="en" class="countryFlag"></button>
+            </div>
+        </nav>
         <!--  
         <div class="container">
             <form action="PHP/contactProcess.php" method="POST">
@@ -44,30 +44,25 @@ include("DataBase/dbConnect.php");
         </div>
     -->
         <form action="PHP/contactProcess.php" method="POST">
-            <div class="container">
+            <div class="pedal">
                 <div class="row">
-                    <h1>contact us</h1>
-                </div>
-                <div class="row">
-                    <h4 style="text-align:center">We'd love to hear from you!</h4>
+                    <h1 id="h1">Contact us</h1>
                 </div>
                 <div class="row input-container">
                     <div class="col-xs-12">
                         <div class="styled-input wide">
-                            <input type="text" name="username" required />
-                            <label>Name</label>
+                            <input type="text" name="username" placeholder="Name" required />
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="styled-input">
-                            <input type="email" name="email" required />
-                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Email" required />
+
                         </div>
                     </div>
                     <div class="col-xs-12">
                         <div class="styled-input wide">
-                            <input type="text" name="message">
-                            <label>Message</label>
+                            <input type="text" name="message" placeholder="Message" required />
                         </div>
                     </div>
                     <div class="col-xs-12">

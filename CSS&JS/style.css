@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .introduction {
     max-width: 100%;
     font-family: "Montserrat", sans-serif;
@@ -18,7 +14,7 @@ body {
 }
 
 .introduction .nav-animation {
-    background-color: #161616;
+    background-color: #058ceb;
     border: none;
     position: fixed;
     width: 100%;
@@ -132,6 +128,11 @@ background-blend-mode: screen;
     opacity: 0.1;
 }
 
+.countryFlag {
+    width: 30px;
+    height: 20px;
+}
+
 
 /* The actual timeline (the vertical ruler) */
 
@@ -143,6 +144,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 112.5%;
     line-height: 1.6em;
+    overflow-x: hidden;
 }
 
 
@@ -448,4 +450,12 @@ body {
     background-color: #555555;
     padding: 5px;
     color: white;
+}
+
+.translate-button.translate-bg {
+    background-image: url("images/bg.svg");
+}
+
+.translate-button.translate-en {
+    background-image: url("images/en.jpg");
 }
