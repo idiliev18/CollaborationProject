@@ -12,13 +12,14 @@ mysqli_close($db_connect);
 
         $to='collabcontactform@gmail.com';
 		$subject='Form Submission';
-		$message="Name :".$username."\n"."Phone :".$email."\n"."IP: ".$ip."\n" "Wrote the following :"."\n\n".$message;
+		$msg="Name :".$username."\n"."Email :".$email."\n"."IP: ".$ip."\n\n"."Message :".$message;
+		echo $msg;
 		$headers="From: ".$email;
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $msg, $headers);
 
 
 ?>
 
 <script>
 	window.location.href = "../contact.html?note=success";
-</script>
+</script> 
