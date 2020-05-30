@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Noto+Sans+TC|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script defer src="CSS&JS/nav.js"></script>
+    <script defer src="CSS&JS/site.js"></script>
     <link rel="stylesheet" type="text/css" href="CSS&JS/style.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet"> -->
     <title>Project</title>
@@ -25,7 +27,7 @@
             <div class="nav-links">
                 <a href="#">Lorem</a>
                 <a href="#">Lorem</a>
-                <a href="aboutus.html">About us</a>
+                <a href="about.html">About us</a>
                 <a href="contact.html">Contact us</a>
             </div>
         </nav>
@@ -40,10 +42,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Compass</span>
+                    <span class="flag" data-content="compass">Compass</span>
                     <span class="time-wrapper"><span class="time">1044</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -52,10 +54,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Mechanical clock</span>
+                    <span class="flag" data-content="mechanical-clock">Mechanical clock</span>
                     <span class="time-wrapper"><span class="time">1250 - 1300</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -64,10 +66,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Printing</span>
+                    <span class="flag" data-content="printing">Printing</span>
                     <span class="time-wrapper"><span class="time">1455</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -76,10 +78,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Steam engine</span>
+                    <span class="flag" data-content="steam-engine">Steam engine</span>
                     <span class="time-wrapper"><span class="time">1765</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -88,10 +90,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Steamboat</span>
+                    <span class="flag" data-content="steamboat">Steamboat</span>
                     <span class="time-wrapper"><span class="time">1807</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -100,10 +102,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Photography</span>
+                    <span class="flag" data-content="photography">Photography</span>
                     <span class="time-wrapper"><span class="time">1826</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -112,10 +114,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Telegraph</span>
+                    <span class="flag" data-content="telegraph">Telegraph</span>
                     <span class="time-wrapper"><span class="time">1844</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -124,10 +126,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Telephone</span>
+                    <span class="flag" data-content="telephone">Telephone</span>
                     <span class="time-wrapper"><span class="time">1876</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -136,10 +138,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Internal combustion engine</span>
+                    <span class="flag" data-content="internacombustion engine">Int. combustion engine</span>
                     <span class="time-wrapper"><span class="time">1876</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -148,10 +150,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Electric light</span>
+                    <span class="flag" data-content="electric-light">Electric light</span>
                     <span class="time-wrapper"><span class="time">1879</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -160,10 +162,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Automobile</span>
+                    <span class="flag" data-content="automobile">Automobile</span>
                     <span class="time-wrapper"><span class="time">1885</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -172,10 +174,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Radio</span>
+                    <span class="flag" data-content="radio">Radio</span>
                     <span class="time-wrapper"><span class="time">1894</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -184,10 +186,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">X ray</span>
+                    <span class="flag" data-content="x-ray">X ray</span>
                     <span class="time-wrapper"><span class="time">1895</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -196,10 +198,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Airplane</span>
+                    <span class="flag" data-content="airplane">Airplane</span>
                     <span class="time-wrapper"><span class="time">1903</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -208,10 +210,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Rocketry</span>
+                    <span class="flag" data-content="rocketry">Rocketry</span>
                     <span class="time-wrapper"><span class="time">1926</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -220,10 +222,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Television</span>
+                    <span class="flag" data-content="tv">Television</span>
                     <span class="time-wrapper"><span class="time">1927</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -232,10 +234,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Computer</span>
+                    <span class="flag" data-content="computer">Computer</span>
                     <span class="time-wrapper"><span class="time">1937</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -244,10 +246,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Helicopter</span>
+                    <span class="flag" data-content="helicopter">Helicopter</span>
                     <span class="time-wrapper"><span class="time">1939</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -256,10 +258,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Transistor</span>
+                    <span class="flag" data-content="transistor">Transistor</span>
                     <span class="time-wrapper"><span class="time">1947</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -269,10 +271,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Lasers</span>
+                    <span class="flag" data-content="lasers">Lasers</span>
                     <span class="time-wrapper"><span class="time">1950</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -281,10 +283,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Microwave oven</span>
+                    <span class="flag" data-content="microwave-oven">Microwave oven</span>
                     <span class="time-wrapper"><span class="time">1950</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -293,10 +295,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Spaceflight</span>
+                    <span class="flag" data-content="spaceflight">Spaceflight</span>
                     <span class="time-wrapper"><span class="time">1957</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -305,10 +307,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Personal computer</span>
+                    <span class="flag" data-content="personal computer">Personal computer</span>
                     <span class="time-wrapper"><span class="time">1974</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -318,10 +320,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Internet</span>
+                    <span class="flag" data-content="internet">Internet</span>
                     <span class="time-wrapper"><span class="time">1974</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -330,10 +332,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">World Wide Web</span>
+                    <span class="flag" data-content="www">World Wide Web</span>
                     <span class="time-wrapper"><span class="time">1989</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -342,10 +344,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Wireless Internet</span>
+                    <span class="flag" data-content="wireless-internet">Wireless Internet</span>
                     <span class="time-wrapper"><span class="time">1997</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -354,10 +356,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">MP3 player</span>
+                    <span class="flag" data-content="mp3-player">MP3 player</span>
                     <span class="time-wrapper"><span class="time">2001</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -366,10 +368,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Computer touchscreen</span>
+                    <span class="flag" data-content="computer-touchscreen">Computer touchscreen</span>
                     <span class="time-wrapper"><span class="time">2010</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -378,10 +380,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">3D Television</span>
+                    <span class="flag" data-content="3d-televesion">3D Television</span>
                     <span class="time-wrapper"><span class="time">2010</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -390,10 +392,10 @@
         <li>
             <div class="direction-l">
                 <div class="flag-wrapper">
-                    <span class="flag">Artificial intelligence</span>
+                    <span class="flag" data-content="artificial-intelligence">Artificial intelligence</span>
                     <span class="time-wrapper"><span class="time">2017</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -402,10 +404,10 @@
         <li>
             <div class="direction-r">
                 <div class="flag-wrapper">
-                    <span class="flag">Quantum computers</span>
+                    <span class="flag" data-content="quantum-computers">Quantum computers</span>
                     <span class="time-wrapper"><span class="time">2019</span></span>
                 </div>
-                <div class="desc">Lorem</div>
+
             </div>
         </li>
 
@@ -414,16 +416,21 @@
     <div class="card">
 
         <div class="photo">
-            <img src="https://historydaily.org/content/69827/ec1348ee31e8f07dce6730990a4e61f9.jpg">
+            <img src="img/compass.jpg" style="width:100%;">
         </div>
-
         <div class="text">
             <center>
-                <p>tova e test</p>
+                <p>The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044. It describes how soldiers found their way by using a fish-shaped piece of magnetized iron floating in a bowl of water when the sky was too cloudy
+                    to see the stars. The compass was invented more than 2000 years ago. The first compasses were made of lodestone, which is a naturally magnetized stone of iron, in Han dynasty China. Later compasses were made of iron needles, magnetized
+                    by striking them with a lodestone.</p>
             </center>
+            <p class="read-more">
+                <a href="#" class="button">read more</a>
+            </p>
         </div>
 
     </div>
+
 
 </body>
 

@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.introduction {
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    background-color: #058ceb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+.introduction .nav-animation {
+    background-color: #058ceb;
+    border: none;
+    position: fixed;
+    width: 100%;
+    min-height: 7vh;
+}
+
+.introduction nav {
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.10s;
+    transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 7vh;
+    border-bottom: 1.5px solid lightblue;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.introduction nav #logo {
+    color: lightblue;
+    /* font-family: 'Courgette', cursive;*/
+    padding: 0px 25px;
+    flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.introduction nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: distribute;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    flex-basis: 60%;
+}
+
+.introduction nav .nav-links a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.introduction nav .nav-links :hover {
+    opacity: 0.1;
+}
+
+
+/* max-width: 100%;
+    font-family: "Montserrat",
+    sans-serif;
+    min-height: 100vh;
+    background-image: url("../img/tempPh.jpg");
+    background-repeat: no-repeat;s
+    background-size: cover;
+    background-blend-mode: screen;
+} */
+
+.introduction .nav-animation {
+    background-color: #058ceb;
+    border: none;
+    position: fixed;
+    width: 100%;
+    min-height: 7vh;
+}
+
+.introduction nav #logo {
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.10s;
+    transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 7vh;
+    border-bottom: 1.5px solid lightblue;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.introduction a #logo {
+    color: lightblue;
+    /* font-family: 'Courgette', cursive;*/
+    padding: 0px 25px;
+    flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.introduction nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: distribute;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    flex-basis: 60%;
+}
+
+.introduction nav .nav-links a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.introduction nav .nav-links :hover {
+    opacity: 0.1;
+}
+
+.class a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.ilko
+{
+position: absolute;
+left: 100px;
+top:200px;
+}
+
+.ivelin
+{
+    position: absolute;
+left: 600px;
+top:200px;
+}
+
+.qnko
+{
+    position: absolute;
+left: 1100px;
+top:200px;
+}
+
+.jelqzko
+{
+    position: absolute;
+left: 100px;
+top:600px;
+}
+
+.stoqn
+{
+    position: absolute;
+left: 600px;
+top:600px;
+}
+
+.egor
+{
+    position: absolute;
+    left: 1100px;
+    top:600px;
+}
+
+@media screen and( max-width 1200px)
+{
+
+.about{
+    padding :80px;
+}
+}
+
+@media screen and (max-width: 1000px)
+{
+    .introduction
+    {
+        background-size:100%;
+        padding:100px 40px;
+    }
+    .about
+    {
+        width:100%;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .introduction{
+        background-size: 100%;
+        padding:100px 40px;
+    }
+    .about{
+        width: 100%;
+    }
+}
