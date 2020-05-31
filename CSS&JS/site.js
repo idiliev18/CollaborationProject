@@ -1,3 +1,13 @@
+$(document).ready(function() { // run when the whole site is loaded
+
+    translate("en");
+
+    $(".translate-button").on("click", function() {
+        translate($(this).data("lng"));
+    });
+
+});
+
 $(() => {
 
     $(".card").fadeOut(0);
@@ -10,7 +20,6 @@ $(() => {
         let card = $(".card");
         card.css({ display: "none" });
     })
-
 
     $("ul.timeline li span.flag").hover(function() {
         let item = $(this);
@@ -60,7 +69,4 @@ $(() => {
         //console.log("Hover End");
         //console.log(item);
     });
-
-
-
 });

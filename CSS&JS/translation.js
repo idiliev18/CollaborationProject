@@ -1,4 +1,6 @@
-var translation = {
+var textTranslation = {
+
+
 
     "nav-goal": {
         'en': `Goal`,
@@ -87,7 +89,7 @@ var translation = {
     "dimitar": {
         'en': `Dimitar Kalchev (Developer) `,
 
-        'bg': `Димитър Клачев (Разработчик)`
+        'bg': `Димитър Калчев (Разработчик)`
     },
 
     "egor": {
@@ -134,6 +136,213 @@ var translation = {
         'bg': `Егор даваше съвети как да изглежда уебсайта и търсеше информация. `
     },
 
+
+    // Temporary
+
+    "quantum-computers": {
+        'en': `Quantum computers`,
+
+        'bg': `Квантов компютър `
+    },
+
+    "artificial-intelligence": {
+        'en': `Artificial intelligence`,
+
+        'bg': `Изкуствен интелект`
+    },
+
+    "wireless-internet": {
+        'en': `Wireless Internet`,
+
+        'bg': `Безжичен интернет`
+    },
+
+    "mp3-player": {
+        'en': `MP3 player`,
+
+        'bg': `MP3 плейър`
+    },
+
+    "3d-televesion": {
+        'en': `3D Television`,
+
+        'bg': `3D Телевизия`
+    },
+
+    "www": {
+        'en': `World Wide Web`,
+
+        'bg': `Световна мрежа`
+    },
+
+    "www": {
+        'en': `World Wide Web`,
+
+        'bg': `Световна мрежа`
+    },
+
+    "web-browser": {
+        'en': `Web Browser`,
+
+        'bg': `Уеб Браузър `
+    },
+
+    "automobile": {
+        'en': `automobile `,
+
+        'bg': `Автомобил `
+    },
+
+    "electric-light": {
+        'en': `Electric-light `,
+
+        'bg': `Електрична лампа `
+    },
+
+    "internal-combustion-engine": {
+        'en': `Internal combustion engine `,
+
+        'bg': `Двигател с вътрешно горене`
+    },
+
+    "telephone": {
+        'en': `Telephone `,
+
+        'bg': `Телефон `
+    },
+
+    "telegraph": {
+        'en': `Telegraph `,
+
+        'bg': `Телеграф `
+    },
+
+    "photography": {
+        'en': `Photography `,
+
+        'bg': `Фотография `
+    },
+
+    "steamboat": {
+        'en': `Steamboat `,
+
+        'bg': `Парана лодка `
+    },
+
+    "steam-engine": {
+        'en': `Steam engine `,
+
+        'bg': `Парен двигател`
+    },
+
+    "printing": {
+        'en': `Printing `,
+
+        'bg': `Принтер `
+    },
+
+    "mechanical-clock": {
+        'en': `Mechanical clock `,
+
+        'bg': `Механичен часовник `
+    },
+
+    "compass": {
+        'en': `Compass `,
+
+        'bg': `Компас `
+    },
+
+    "radio": {
+        'en': `Radio`,
+
+        'bg': `Радио`
+    },
+
+    "x-ray": {
+        'en': `X-Ray`,
+
+        'bg': `Ренген`
+    },
+
+    "airplane": {
+        'en': `Airplane`,
+
+        'bg': `Самолет`
+    },
+
+    "rocketry": {
+        'en': `Rocketry`,
+
+        'bg': `Ракета `
+    },
+
+    "tv": {
+        'en': `Television`,
+
+        'bg': `Телевизор `
+    },
+
+    "computer": {
+        'en': `Computer`,
+
+        'bg': `Компютър`
+    },
+
+    "helicopter": {
+        'en': `Helicopter`,
+
+        'bg': `Хеликоптер`
+    },
+
+    "spaceflight": {
+        'en': `Spaceflight`,
+
+        'bg': `Ракета`
+    },
+
+    "touchscreen": {
+        'en': `Touchscreen`,
+
+        'bg': `Тъчскрийн`
+    },
+
+    "microwave-oven": {
+        'en': `Microwave Oven `,
+
+        'bg': `Микровълнова печка `
+    },
+
+    "lasers": {
+        'en': `Lasers `,
+
+        'bg': `Лазер `
+    },
+
+    "transistor": {
+        'en': `Transistor`,
+
+        'bg': `Транзистор `
+    },
+
+    "personal-computer": {
+        'en': `Personal Computer`,
+
+        'bg': `Личен Компютър`
+    },
+
+    "ourteam": {
+        'en': `Our Team`,
+
+        'bg': `Нашият Отбор`
+    },
+
+    "ilko": {
+        'en': `Iliyan Iliev (Developer)`,
+
+        'bg': `Илиян Илиев (Разработчик)`
+    },
+
 }
 
 var currentLanguage = 'en';
@@ -148,6 +357,7 @@ function replaceElementText(item, text) {
 
 function translate(langId) {
     currentLanguage = langId;
+
     // Gets all tags that have 'data-lang' attribute present
     $("[data-lang]")
         .each(function() {

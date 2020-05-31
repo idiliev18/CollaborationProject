@@ -566,10 +566,10 @@ var cardText = {
         }
     },
 
-    "internet": {
-        'photo': `https://2.bp.blogspot.com/-GEbSheBCetk/T7_QcNNkMAI/AAAAAAAAAAU/KEjmyaNkL_E/s1600/Leonard+Kleinrock.jpg`,
+    "web-browser": {
+        'photo': `https://upload.wikimedia.org/wikipedia/commons/d/d5/Lynx-wikipedia.png`,
         'text': {
-            'en': `Vinton Cerf and Robert Kahn produced the TCP/IP (Transmission Control Protocol/Internet Protocol), which describes how data can be broken down into smaller pieces called packets and how these packets can be transmitted to the right destination. TCP/IP became the basis for how data is transmitted over the Internet.`,
+            'en': `Lynx is a customizable text-based web browser for use on cursor-addressable character cell terminals.`,
             'bg': `BG TEXT`
         },
         "details": {
@@ -580,10 +580,14 @@ var cardText = {
                 "howUsed": ``
             },
             "en": {
-                "title": `Internet`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `The first text-based website`,
+                "createdBy": `The website is product of the Distributed Computing Group within Academic Computing Services.`,
+                "howInvented": `In 1992 by a team of students and staff at the university as a hypertext browser used
+                solely to distribute campus information as part of a Campus-Wide
+                Information Server and for browsing the Gopher space. 
+                Beta availability was announced to Usenet on 22 July 1992. In 1993, 
+                Montulli added an Internet interface and released a new version (2.0) of the browser.`,
+                "howUsed": `It was used to navigate through different websites.`
             }
 
         }
