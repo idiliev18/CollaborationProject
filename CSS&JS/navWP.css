@@ -1,0 +1,56 @@
+.nav-animation {
+    background-color: #058ceb;
+    border: none;
+    position: fixed;
+    width: 100%;
+    min-height: 7vh;
+}
+
+nav #logo {
+    color: lightblue;
+    /* font-family: 'Courgette', cursive;*/
+    padding: 0px 25px;
+    flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.10s;
+    transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 7vh;
+    border-bottom: 1.5px solid lightblue;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: distribute;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    flex-basis: 60%;
+}
+
+nav .nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+nav .nav-links :hover {
+    opacity: 0.1;
+}
+
+.countryFlag {
+    width: 30px;
+    height: 20px;
+}

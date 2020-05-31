@@ -13,16 +13,18 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": `Compass`,
-                "createdBy": `Some chinese guy`,
-                "howInvented": `With cherpak`,
-                "howUsed": `For navigation`
+                "title": `Компас`,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
             },
             "en": {
-                "title": `Compass`,
-                "createdBy": `Some chinese guy`,
-                "howInvented": `At first, it was used for divination, fortune-telling and geomancy, for finding precious gems and in Feng Shui but in time people discovered that it can be used for navigation and orientation.`,
-                "howUsed": `The compass was used for navigation during the Chinese Song Dynasty
+                "title": `The first magnetic compass`,
+                "createdBy": `The first magnetic compass was invented in China.`,
+                "howInvented": `The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044.`,
+                "howUsed": `At first, it was used for divination, fortune-telling and geomancy, for finding precious gems
+                and in Feng Shui but in time people discovered that it can be used for navigation, also was used for orientation and
+                navigation during the Chinese Song Dynasty.
                 `
             }
 
@@ -31,24 +33,35 @@ var cardText = {
 
     "mechanical-clock": {
 
-
-        'photo': `https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tower_clock_movement.png/640px-Tower_clock_movement.png?1590869679756`,
+        'photo': `https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Salisbury_Cathedral%2C_medieval_clock.JPG/675px-Salisbury_Cathedral%2C_medieval_clock.JPG`,
         'text': {
-            'en': `Hourglass and water clocks had been around for centuries, but the first mechanical clocks began to appear in Europe toward the end of the 13th century and were used in cathedrals to mark the time when services would be held.`,
-            'bg': `Часовниците и водните часовници са съществували от векове, но първите механични часовници започват да се появяват в Европа към края на 13 век и се използват в катедралите за отбелязване на времето, когато ще се провеждат богослуженията.`
+            'en': `The Salisbury Cathedral clock is a large iron-framed tower clock without a dial, in Salisbury Cathedral, England. Supposedly dating from about 1386, it is a well-preserved example of the earliest type of mechanical clock, called verge and foliot clocks, and is said to be the oldest working clock in the world.`,
+            'bg': ``
         },
         "details": {
             "bg": {
-                "title": `clock`,
+                "title": `Механичен часовник`,
                 "createdBy": `Gurlio`,
                 "howInvented": `with timer`,
                 "howUsed": `for takova time`
             },
             "en": {
-                "title": `clock`,
-                "createdBy": `Arab engineer Ibn Khalaf al-Muradi`,
-                "howInvented": `with timer`,
-                "howUsed": `for takova time`
+                "title": `Mechanical Clock`,
+                "createdBy": `The Salisbury Cathedral clock is a large iron-framed tower clock without a dial, in Salisbury Cathedral, England. 
+                Supposedly dating from about 1386, it is a well-preserved example of the earliest type of mechanical clock, called verge and foliot 
+                clocks, and is said to be the oldest working clock in the world.`,
+                "howInvented": `The frame height is 1.24m, the width 1.29m, and the depth 1.06m.Great wheel to verge escape wheel: 100 to 10, verge escape wheel 45 teeth.
+
+                The Great wheel turns once in 3600 seconds (1 hour), so the verge escape wheel turns once in 360 seconds. One full foliot swing thus takes 8 seconds, or 4 seconds per half swing.
+                
+                Seen from the going train side, the great wheel with the winding barrel turns anti-clockwise, and the escapement wheel turns clockwise.`,
+                "howUsed": `The mechanical clock was used in cathedrals to mark the time when services would be held. 
+                    The clock has 64 teeth driving an 8 pin birdcage; second (hoop) wheel 64 teeth driving an 8 leaf pinion on the fly. 
+                    So each turn of the great wheel makes the fly turn 64 times, or 8 turns of the fly per strike of the clock 
+                    (as the great wheel has 8 striking pins).Great wheel to count wheel: 8 tooth pinion to internal 78 teeth on count wheel, 
+                    with 8 striking pins on the great wheel. This directly corresponds with the 78 strikes the clock will make in 12 hours
+                    (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 = 78). The count wheel turns once every 12 hours, so the great wheel turns 
+                    9.75 times, operating the strike lever thus 9.75 × 8 = 78 times.`
             }
 
         }
@@ -68,10 +81,19 @@ var cardText = {
                 "howUsed": ``
             },
             "en": {
-                "title": `Printing`,
-                "createdBy": `Bi Sheng`,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `The first modern printing press using movable metal type`,
+                "createdBy": `The first printing press was invented by Johannes Gutenberg in 1450 in Germany.`,
+                "howInvented": `Having previously worked as a professional goldsmith, Gutenberg made skillful use of the knowledge
+                 of metals he had learned as a craftsman. He was the first to make type from an alloy of lead, tin, and antimony, 
+                 which was critical for producing durable type that produced high-quality printed books and proved to be much better 
+                 suited for printing than all other known materials. To create these lead types, Gutenberg used what is considered
+                  one of his most ingenious inventions, a special matrix enabling the quick and precise molding of new type blocks
+                   from a uniform template. His type case is estimated to have contained around 290 separate letter boxes, 
+                   most of which were required for special characters, ligatures, punctuation marks, and so forth.`,
+
+                "howUsed": `Modelled on the design of existing screw presses, a single Renaissance printing press could produce
+                 up to 3,600 pages per workday, compared to forty by hand-printing and a few by hand-copying and that started the
+                 Printing Revolution.`
             }
 
         }
@@ -92,9 +114,9 @@ var cardText = {
             },
             "en": {
                 "title": `Steam engine`,
-                "createdBy": `Hero of Alexandria`,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `James Watt developed the design sporadically from 1763 to 1775 with support from Matthew Boulton.`,
+                "howInvented": `Watt's design saved so much more fuel compared with earlier designs that they were licensed based on the amount of fuel they would save. Watt never ceased developing the steam engine, introducing double-acting designs (with two cylinders) and various systems for taking off rotary power. Watt's design became synonymous with steam engines, and it was many years before significantly new designs began to replace the basic Watt design.`,
+                "howUsed": `The use of the steam engine is traceable to the 16th and 17th centuries. However, it gained more prominence and became more relevant in the industrial revolution.`
             }
 
         }
@@ -115,9 +137,9 @@ var cardText = {
             },
             "en": {
                 "title": `Steamboat`,
-                "createdBy": `English physician John Allen`,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `Early attempts at powering a boat by steam were made by the French inventor Denis Papin and the English inventor Thomas Newcomen.`,
+                "howInvented": `A steamboat was described and patented by English physician John Allen in 1729.`,
+                "howUsed": `Denis Papin proposed applying this steam pump to the operation of a paddlewheel boat and tried to market his idea in Britain. Newcomen's was able to produce mechanical power, but produced reciprocating motion and was very large and heavy.`
             }
 
         }
@@ -138,8 +160,8 @@ var cardText = {
             },
             "en": {
                 "title": `Photography`,
-                "createdBy": `Nicéphore Niépce`,
-                "howInvented": ``,
+                "createdBy": `Nicéphore Niépce, was a French inventor, usually credited as the inventor of photography.`,
+                "howInvented": `For his first experiments , Nicéphore Niépce positioned at the back of a camera obscura sheets of silver salts coated paper, known to blacken with daylight . In may 1816 he produced the first image of nature : a view from a window . It was a negative and the image vanished because in broad daylight the coated paper becomes completely black . He calls these images “retinas”.`,
                 "howUsed": ``
             }
 
@@ -161,8 +183,8 @@ var cardText = {
             },
             "en": {
                 "title": `Telegraph`,
-                "createdBy": `Claude Chappe`,
-                "howInvented": ``,
+                "createdBy": `Claude Chappe, (born Dec. 25, 1763, Brûlon, Fr.—died Jan. 23, 1805, Paris), French engineer and cleric who converted an old idea into a reality by inventing the semaphore visual telegraph.`,
+                "howInvented": `The system was extensively used in France, and European countries controlled by France, during the Napoleonic era.`,
                 "howUsed": ``
             }
 
@@ -185,9 +207,9 @@ var cardText = {
             },
             "en": {
                 "title": `Telephone`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `The invention of the telephone was the culmination of work done by many individuals.`,
+                "howInvented": `One precursor to the development of the electromagnetic telephone originated in 1833 when Carl Friedrich Gauss and Wilhelm Eduard Weber invented an electromagnetic device for the transmission of telegraphic signals at the University of Göttingen, in Lower Saxony, helping to create the fundamental basis for the technology that was later used in similar telecommunication devices. Gauss's and Weber's invention is purported to be the world's first electromagnetic telegraph.`,
+                "howUsed": `The concept of the telephone dates back to the string telephone or lover's telephone that has been known for centuries.`
             }
 
         }
@@ -369,7 +391,7 @@ var cardText = {
     "computer": {
         'photo': `https://1r8nvx3oj5o42h1uno3u4qkw-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/a-brief-history-on-the-invention-of-the-computer-when-was-the-first-computer-really-invented.gif`,
         'text': {
-            'en': `Iowa State mathematician and physicist John Atanasoff designed the first electronic digital computer. It would use binary numbers (base 2, in which all numbers are expressed with the digits 0 and 1), and its data would be stored in capacitors. In 1939 he and his student Clifford Berry began building the Atanasoff-Berry Computer (ABC).`,
+            'en': ``,
             'bg': `BG TEXT`
         },
         "details": {
@@ -519,9 +541,9 @@ var cardText = {
             },
             "en": {
                 "title": `Personal computer`,
-                "createdBy": ``,
+                "createdBy": `The IBM 610 was designed between 1948 and 1957 by John Lentz at the Watson Lab at Columbia University as the Personal Automatic Computer (PAC) and announced by IBM as the 610 Auto-Point in 1957. Although it was faulted for its speed, the IBM 610 handled floating-point arithmetic naturally. With a price tag of $55,000, only 180 units were produced.`,
                 "howInvented": ``,
-                "howUsed": ``
+                "howUsed": `one person at a time. A typical personal computer assemblage consists of a central processing unit (CPU), which contains the computer’s arithmetic, logic, and control circuitry on an integrated circuit; two types of computer memory, main memory, such as digital random-access memory (RAM), and auxiliary memory, such as magnetic hard disks and special optical compact discs, or read-only memory (ROM) discs (CD-ROMs and DVD-ROMs); and various input/output devices, including a display screen, keyboard and mouse, modem, and printer.`
             }
 
         }
@@ -565,9 +587,9 @@ var cardText = {
             },
             "en": {
                 "title": `WWW`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `English engineer and computer scientist Sir Timothy John Berners-Lee invented the World Wide Web in 1989.`,
+                "howInvented": `Tim Berners-Lee's vision of a global hyperlinked information system became a possibility by the second half of the 1980s. By 1985, the global Internet began to proliferate in Europe and the Domain Name System came into being. In 1988 the first direct IP connection between Europe and North America was made and Berners-Lee began to openly discuss the possibility of a web-like system at CERN.`,
+                "howUsed": `The World-Wide Web was first developed as a tool for collaboration in the high energy physics community. WWW is used for every site's domain.`
             }
 
         }
@@ -588,9 +610,9 @@ var cardText = {
             },
             "en": {
                 "title": `Wireless internet`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `CSIRO credits the following inventors for creating this technology WLAN: Dr. John O’Sullivan, Dr. Terry Percival, Mr. Diet Ostry, Mr. Graham Daniels, and Mr. John Deane.`,
+                "howInvented": `Wi-Fi uses multiple parts of the IEEE 802 protocol family and is designed to interwork seamlessly with its wired sibling Ethernet. Compatible devices can network through wireless access points to each other as well as to wired devices and the Internet.`,
+                "howUsed": `Unlike radio and TV, Wi-Fi is typically used to send signals only over relatively short distances with low-power transmitters.`
             }
 
         }
@@ -611,9 +633,9 @@ var cardText = {
             },
             "en": {
                 "title": `MP3 player`,
-                "createdBy": ``,
+                "createdBy": `In 1997, the world's first MP3 player, the MPMan F10, was developed by a South Korean company SaeHan Information Systems.`,
                 "howInvented": ``,
-                "howUsed": ``
+                "howUsed": `MP3 players can be used to play both audio CDs and homemade data CDs containing MP3 or other digital audio files.`
             }
 
         }
@@ -626,103 +648,98 @@ var cardText = {
             'bg': `BG TEXT`
         },
         "details": {
-            "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+
+            "touchscreen": {
+                'photo': `https://cdn.arstechnica.net/wp-content/uploads/2013/03/80ler-teknoloji-24.jpg`,
+                'text': {
+                    'en': `In 1972, a group at the University of Illinois filed for a patent on an optical touchscreen that became a standard part of the Magnavox Plato IV Student Terminal and thousands were built for this purpose. In 1984, Fujitsu released a touch pad for the Micro 16 to accommodate the complexity of kanji characters, which were stored as tiled graphics. In 1985, Sega released the Terebi Oekaki, also known as the Sega Graphic Board, for the SG-1000 video game console and SC-3000 home computer.`,
+                    'bg': `BG TEXT`
+                },
+                "details": {
+                    "bg": {
+                        "title": ``,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    },
+                    "en": {
+                        "title": `Touchscreen`,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    }
+
+                }
             },
-            "en": {
-                "title": `Touchscreen`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
-            }
 
-        }
-    },
+            "3d-televesion": {
+                'photo': `https://ksassets.timeincuk.net/wp/uploads/sites/54/2010/06/13328-txp50vt20bimg1-1.jpg`,
+                'text': {
+                    'en': `The stereoscope was first invented by Sir Charles Wheatstone in 1838. It showed that when two pictures are viewed stereoscopically, they are combined by the brain to produce 3D depth perception. The stereoscope was improved by Louis Jules Duboscq, and a famous picture of Queen Victoria was displayed at The Great Exhibition in 1851. In 1855 the Kinematoscope was invented. In the late 1890s, the British film pioneer William Friese-Greene filed a patent for a 3D movie process. On 10 June 1915, former Edison Studios chief director Edwin S. Porter and William E. Waddell presented tests in red-green anaglyph to an audience at the Astor Theater in New York City and in 1922 the first public 3D movie The Power of Love was displayed.`,
+                    'bg': `BG TEXT`
+                },
+                "details": {
+                    "bg": {
+                        "title": ``,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    },
+                    "en": {
+                        "title": `3D televesion`,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    }
 
-    "3d-televesion": {
-        'photo': `https://ksassets.timeincuk.net/wp/uploads/sites/54/2010/06/13328-txp50vt20bimg1-1.jpg`,
-        'text': {
-            'en': `The stereoscope was first invented by Sir Charles Wheatstone in 1838. It showed that when two pictures are viewed stereoscopically, they are combined by the brain to produce 3D depth perception. The stereoscope was improved by Louis Jules Duboscq, and a famous picture of Queen Victoria was displayed at The Great Exhibition in 1851. In 1855 the Kinematoscope was invented. In the late 1890s, the British film pioneer William Friese-Greene filed a patent for a 3D movie process. On 10 June 1915, former Edison Studios chief director Edwin S. Porter and William E. Waddell presented tests in red-green anaglyph to an audience at the Astor Theater in New York City and in 1922 the first public 3D movie The Power of Love was displayed.`,
-            'bg': `BG TEXT`
-        },
-        "details": {
-            "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                }
             },
-            "en": {
-                "title": `3D televesion`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
-            }
 
-        }
-    },
+            "artificial-intelligence": {
+                'photo': `https://gabrielamueller.com/wp-content/uploads/2019/01/gabriela-mueller-artifitcial-intelligence-2000.jpg`,
+                'text': {
+                    'en': `The team behind the AlphaGo artificial intelligence program announced that it had become the world’s best go player. Go is a game with very simple rules but many possible positions. The previous year AlphaGo had defeated the great player Lee Sedol in a match 4–1. AlphaGo then played itself and, through continual improvement, was able to defeat the version that had defeated Lee, 100–0. Through machine learning, AlphaGo had become better at the game than any human.`,
+                    'bg': `BG TEXT`
+                },
+                "details": {
+                    "bg": {
+                        "title": ``,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    },
+                    "en": {
+                        "title": `Artificial-intelligence`,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    }
 
-    "artificial-intelligence": {
-        'photo': `https://gabrielamueller.com/wp-content/uploads/2019/01/gabriela-mueller-artifitcial-intelligence-2000.jpg`,
-        'text': {
-            'en': `The team behind the AlphaGo artificial intelligence program announced that it had become the world’s best go player. Go is a game with very simple rules but many possible positions. The previous year AlphaGo had defeated the great player Lee Sedol in a match 4–1. AlphaGo then played itself and, through continual improvement, was able to defeat the version that had defeated Lee, 100–0. Through machine learning, AlphaGo had become better at the game than any human.`,
-            'bg': `BG TEXT`
-        },
-        "details": {
-            "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                }
             },
-            "en": {
-                "title": `Artificial-intelligence`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+
+            "quantum-computers": {
+                'photo': `https://ignasisayol.com/wp-content/uploads/2019/04/computer-cuanticos.png`,
+                'text': {
+                    'en': ` Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.[1]:I-5 Quantum computers are believed to be able to solve certain computational problems, such as integer factorization , substantially faster than classical computers. The study of quantum computing is a subfield of quantum information science. `,
+                    'bg': `BG TEXT`
+                },
+                "details": {
+                    "bg": {
+                        "title": ``,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    },
+                    "en": {
+                        "title": `Quantum Computer`,
+                        "createdBy": ``,
+                        "howInvented": ``,
+                        "howUsed": ``
+                    }
+
+                }
             }
-
         }
-    },
-
-    "quantum-computers": {
-        'photo': `https://ignasisayol.com/wp-content/uploads/2019/04/computer-cuanticos.png`,
-        'text': {
-            'en': ` Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.[1]:I-5 Quantum computers are believed to be able to solve certain computational problems, such as integer factorization , substantially faster than classical computers. The study of quantum computing is a subfield of quantum information science. `,
-            'bg': `BG TEXT`
-        },
-        "details": {
-            "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
-            },
-            "en": {
-                "title": `Quantum Computer`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
-            }
-
-        }
-    },
-    "details": {
-        "bg": {
-            "title": ``,
-            "createdBy": ``,
-            "howInvented": ``,
-            "howUsed": ``
-        },
-        "en": {
-            "title": ``,
-            "createdBy": ``,
-            "howInvented": ``,
-            "howUsed": ``
-        }
-
     }
 };

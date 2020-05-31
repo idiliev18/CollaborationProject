@@ -1,32 +1,49 @@
-h1
-{
-    text-align:center;
-   
+* {
+    padding: 0;
+    margin: 0;
 }
-p
-{
-    font-size:25px;
-}
-.photo
-{
-    position:absolute;
-    top:70px;
-    width:450px;
-right:40%;
 
+body {
+    background-color: rgb(50, 50, 50);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 112.5%;
+    line-height: 1.6em;
+    overflow-x: hidden;
 }
-.author
-{
-    position:absolute;
-    top:400px;
+
+.title h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.howInvented
-{
-    position:absolute;
-    top:700px;
+
+.details {
+    padding-left: 10px;
 }
-.howUsed
-{
-    position:absolute;
-    top:1000px;
+
+.details h1 {
+    padding-top: 15px;
+    font-size: 1.6em;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.photo {
+    top: 70px;
+    width: 450px;
+    right: 40%;
+    padding-top: 20px;
+}
+
+.bordered {
+    border: 3px solid black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-left: 15px;
 }
