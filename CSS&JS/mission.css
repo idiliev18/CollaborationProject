@@ -17,8 +17,7 @@ body {
     background-image: url("../img/mission.jpg");
     background-size: 55%;
     background-color: #fdfdfd;
-    background-position-x: left;
-    overflow: hidden;
+    background-repeat: no-repeat;
     padding: 100px 0;
 }
 
@@ -66,7 +65,7 @@ body {
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
     .about-section {
         padding: 0;
     }

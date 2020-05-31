@@ -161,8 +161,10 @@ var cardText = {
             "en": {
                 "title": `Photography`,
                 "createdBy": `Nicéphore Niépce, was a French inventor, usually credited as the inventor of photography.`,
-                "howInvented": `For his first experiments , Nicéphore Niépce positioned at the back of a camera obscura sheets of silver salts coated paper, known to blacken with daylight . In may 1816 he produced the first image of nature : a view from a window . It was a negative and the image vanished because in broad daylight the coated paper becomes completely black . He calls these images “retinas”.`,
-                "howUsed": ``
+                "howInvented": `In the early 1820s, Nicéphore Niépce became interested in using a light-sensitive solution to make 
+                copies of lithographs onto glass, zinc, and finally a pewter plate. He then had the great idea to use his solution
+                to make a copy of an image in a camera obscur.`,
+                "howUsed": `The photography helped humanity to capture moments, people, nature and save them for the future`
             }
 
         }
@@ -230,9 +232,9 @@ var cardText = {
             },
             "en": {
                 "title": `Internal combustion engine`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `The Otto engine was a large stationary single-cylinder internal combustion four-stroke engine designed by the German Nicolaus Otto in 1876. It was a low-RPM machine, and only fired every other stroke due to the Otto cycle, also designed by Otto.`,
+                "howInvented": `A major theoretical advance occurred with the publication in 1862 of a description of the ideal operating cycle of an internal-combustion engine. The author, the French engineer Alphonse Beau de Rochas, laid down the following conditions as necessary for optimum efficiency: maximum cylinder volume with minimum cooling surface, maximum rapidity of expansion, maximum ratio of expansion, and maximum pressure of the ignited charge.`,
+                "howUsed": `The four-stroke Otto engine was an immediate success. In spite of its great weight and poor economy, nearly 50,000 engines with a combined capacity of about 200,000 horsepower were sold in 17 years, followed by the rapid development of a wide variety of engines of the same type.`
             }
 
         }
@@ -253,9 +255,9 @@ var cardText = {
             },
             "en": {
                 "title": `Electric light`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `In 1878, Edison focused on inventing a safe, inexpensive electric light to replace the gaslight–a challenge that scientists had been grappling with for the last 50 years.`,
+                "howInvented": `With the help of prominent financial backers like J.P. Morgan and the Vanderbilt family, Edison set up the Edison Electric Light Company and began research and development. He made a breakthrough in October 1879 with a bulb that used a platinum filament, and in the summer of 1880 hit on carbonized bamboo as a viable alternative for the filament, which proved to be the key to a long-lasting and affordable light bulb.`,
+                "howUsed": `It replace the gas lamps`
             }
 
         }
@@ -276,9 +278,9 @@ var cardText = {
             },
             "en": {
                 "title": `Automobile`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `In 1885 Siegfried Marcus built his first combustion engine powered pushcart, followed by four progressively more sophisticated combustion-engine cars over a 10-to-15-year span that influenced later cars. `,
+                "howInvented": `Vital to the modern automobile is the internal combustion engine. This type of engine uses an explosive combustion of fuel to push a piston within a cylinder. The piston's movement turns a crankshaft that is connected to the car's wheels of a drive shaft. `,
+                "howUsed": `Car is used for faster transport`
             }
 
         }
@@ -299,9 +301,10 @@ var cardText = {
             },
             "en": {
                 "title": `Radio`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `Guglielmo Marconi (1874-1937) was a mere 27 years old when he successfully made the first transatlantic radio transmission on December 12, 1901.`,
+                "howInvented": `Marconi set up a station on the South East coast of Ireland, at Marconi House, Rosslare Strand, Co. Wexford in 1901. This was to act as an intermediary station between Marconi’s base at The Poldhu Wireless Station in Cornwall, England and a subsequent station on the West coast of Ireland in Clifden in Co. Galway. This would provide the power necessary for his landmark experiment.
+                On December 12th, 1901 Marconi was successful in sending a signal across the Atlantic. The transmission was received at St. John’s, Newfoundland, over two thousand miles away from its starting point in Cornwall. The transmission consisted of three clicks; the Morse Code signal for ‘S’ and would pave the way for the first radio message, which was broadcast twelve months later, in 1902.`,
+                "howUsed": `The prime purpose of radio is to convey information from one place to another through the intervening media without wires.`
             }
 
         }
@@ -324,9 +327,9 @@ var cardText = {
             },
             "en": {
                 "title": `X-ray`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `X-rays were discovered in 1895 by Wilhelm Conrad Roentgen (1845-1923) who was a Professor at Wuerzburg University in Germany.`,
+                "howInvented": `Working with a cathode-ray tube in his laboratory, Roentgen observed a fluorescent glow of crystals on a table near his tube. The tube that Roentgen was working with consisted of a glass envelope (bulb) with positive and negative electrodes encapsulated in it. The air in the tube was evacuated, and when a high voltage was applied, the tube produced a fluorescent glow. Roentgen shielded the tube with heavy black paper, and discovered a green colored fluorescent light generated by a material located a few feet away from the tube.`,
+                "howUsed": `The x-ray is used in the medicine helping the doctors to find bone injures and save people's lives.`
             }
 
         }
@@ -347,9 +350,9 @@ var cardText = {
             },
             "en": {
                 "title": `Airplane`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `The Wright brothers—Orville (August 19, 1871 – January 30, 1948) and Wilbur (April 16, 1867 – May 30, 1912)—were two American aviation pioneers generally credited with inventing, building, and flying the world's first successful motor-operated airplane.`,
+                "howInvented": `Wilbur and Orville Wright played with a toy rubber-powered flyer as children and flew kites, spurring their inspiration for flight early in life. Their eventual first flight at Kitty Hawk, North Carolina, relied upon innovations in flight control and self-propulsion — both necessary for the aircraft to stay aloft without crashing during its first successful flight tests, on Dec. 17, 1903.`,
+                "howUsed": `Traveling`
             }
 
         }
@@ -362,7 +365,21 @@ var cardText = {
             'bg': `BG TEXT`
         },
 
+        "details": {
+            "bg": {
+                "title": ``,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
+            },
+            "en": {
+                "title": `Rocketry`,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
+            }
 
+        }
     },
 
     "tv": {
@@ -426,9 +443,9 @@ var cardText = {
             },
             "en": {
                 "title": `Helicopter`,
-                "createdBy": ``,
+                "createdBy": `The first helicopter was designed by Igor Sikorsky and built by the Vought-Sikorsky Aircraft Division of the United Aircraft Corporation, it was the first to incorporate a single main rotor and tail rotor design. Its first flight was on September 14, 1939 when the VS-300 took flight at Stratford, Connecticut.`,
                 "howInvented": ``,
-                "howUsed": ``
+                "howUsed": `Helicopter is used for fast travel. The helicopter can go to hard to come places and to save lives.`
             }
 
         }
@@ -449,9 +466,9 @@ var cardText = {
             },
             "en": {
                 "title": `Transistor`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `The transistor was successfully demonstrated on December 23, 1947 at Bell Laboratories in Murray Hill, New Jersey. It was invented by William Shockley, John Bardeen and Walter Brattain.`,
+                "howInvented": `Transistors were originally manufactured using Germanium. This was the standard for the first decade of transistor production. The Silicon-based transistors that we're used to seeing today were adopted because Germanium breaks down at 180 degrees F.`,
+                "howUsed": `A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit. A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals.`
             }
 
         }
@@ -472,9 +489,9 @@ var cardText = {
             },
             "en": {
                 "title": `Lasers`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `Theodore H. Maiman, a physicist at Hughes Research Laboratories in Malibu, Calif., constructs the first laser using a cylinder of synthetic ruby.`,
+                "howInvented": ` As ideas developed, they abandoned infrared radiation to instead concentrate upon visible light. The concept originally was called an "optical maser". `,
+                "howUsed": `A laser differs from other sources of light in that it emits light which is coherent. Spatial coherence allows a laser to be focused to a tight spot, enabling applications such as laser cutting and lithography. Spatial coherence also allows a laser beam to stay narrow over great distances (collimation), enabling applications such as laser pointers and lidar. Lasers can also have high temporal coherence, which allows them to emit light with a very narrow spectrum, i.e., they can emit a single color of light.`
             }
 
         }
@@ -495,9 +512,9 @@ var cardText = {
             },
             "en": {
                 "title": `Microwave oven`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `The first microwave ovens were developed around 1949, when in a bit of serendipity, engineer Percy LeBaron Spencer noticed that microwave communication equipment could be used to heat foods.`,
+                "howInvented": `Spencer had a chocolate bar in his pocket and noticed (no doubt messily) that the candy melted when he was near some microwave equipment. Quickly coming to the conclusion that other types of food could be heated that way, the Raytheon Company, Spencer’s employer, filed the first patents for a microwave oven later that year.`,
+                "howUsed": `It is used for faster way to heat foods than normal ovens. The use high-powered radio waves to cook food more evenly`
             }
 
         }
@@ -518,9 +535,9 @@ var cardText = {
             },
             "en": {
                 "title": `Spaceflight`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `Derivatives of Korolev's R-7 Semyorka missiles were used to launch the world's first artificial Earth satellite, Sputnik 1, on October 4, 1957, and later the first human to orbit the Earth, Yuri Gagarin in Vostok 1, on April 12, 1961.`,
+                "howInvented": `Tsiolkovsky's rocketry work was not fully appreciated in his lifetime, but he influenced Sergey Korolev, who became the Soviet Union's chief rocket designer under Joseph Stalin, to develop intercontinental ballistic missiles to carry nuclear weapons as a counter measure to United States bomber planes. `,
+                "howUsed": `The spaceflight's help mankind to discover the space. To go to some other planet's to take samples for testing if they are livable.`
             }
 
         }
@@ -542,7 +559,7 @@ var cardText = {
             "en": {
                 "title": `Personal computer`,
                 "createdBy": `The IBM 610 was designed between 1948 and 1957 by John Lentz at the Watson Lab at Columbia University as the Personal Automatic Computer (PAC) and announced by IBM as the 610 Auto-Point in 1957. Although it was faulted for its speed, the IBM 610 handled floating-point arithmetic naturally. With a price tag of $55,000, only 180 units were produced.`,
-                "howInvented": ``,
+                "howInvented": `ENIAC and other early computers proved to many universities and corporations that the machines were worth the tremendous investment of money, space and manpower they demanded. (For example, ENIAC could solve in 30 seconds a missile-trajectory problem that could take a team of human “computers” 12 hours to complete.) At the same time, new technologies were making it possible to build computers that were smaller and more streamlined. In 1948, Bell Labs introduced the transistor, an electronic device that carried and amplified electrical current but was much smaller than the cumbersome vacuum tube. Ten years later, scientists at Texas Instruments and Fairchild Semiconductor came up with the integrated circuit, an invention that incorporated all of the computer’s electrical parts–transistors, capacitors, resistors and diodes–into a single silicon chip.`,
                 "howUsed": `one person at a time. A typical personal computer assemblage consists of a central processing unit (CPU), which contains the computer’s arithmetic, logic, and control circuitry on an integrated circuit; two types of computer memory, main memory, such as digital random-access memory (RAM), and auxiliary memory, such as magnetic hard disks and special optical compact discs, or read-only memory (ROM) discs (CD-ROMs and DVD-ROMs); and various input/output devices, including a display screen, keyboard and mouse, modem, and printer.`
             }
 
@@ -598,7 +615,7 @@ var cardText = {
     "wireless-internet": {
         'photo': `https://online.stanford.edu/sites/default/files/styles/figure_default/public/2018-03/ee_wirelesscommunications_ee359.jpg?itok=Yu3MxAmf`,
         'text': {
-            'en': `In 1971, ALOHAnet connected the Great Hawaiian Islands with a UHF wireless packet network. ALOHAnet and the ALOHA protocol were early forerunners to Ethernet, and later the IEEE 802.11 protocols, respectively. A 1985 ruling by the U.S. Federal Communications Commission released the ISM band for unlicenced use. These frequency bands are the same ones used by equipment such as microwave ovens and are subject to interference. In 1991, NCR Corporation with AT&T Corporation invented the precursor to 802.11, intended for use in cashier systems, under the name WaveLAN. The first version of the 802.11 protocol was released in 1997, and provided up to 2 Mbit/s link speeds. This was updated in 1999 with 802.11b to permit 11 Mbit/s link speeds, and this proved popular.`,
+            'en': `WiFi was invented and first released for consumers in 1997, when a committee called 802.11 was created. This lead to the creation of IEEE802. 11, which refers to a set of standards that define communication for wireless local area networks`,
             'bg': `BG TEXT`
         },
         "details": {
@@ -648,98 +665,88 @@ var cardText = {
             'bg': `BG TEXT`
         },
         "details": {
-
-            "touchscreen": {
-                'photo': `https://cdn.arstechnica.net/wp-content/uploads/2013/03/80ler-teknoloji-24.jpg`,
-                'text': {
-                    'en': `In 1972, a group at the University of Illinois filed for a patent on an optical touchscreen that became a standard part of the Magnavox Plato IV Student Terminal and thousands were built for this purpose. In 1984, Fujitsu released a touch pad for the Micro 16 to accommodate the complexity of kanji characters, which were stored as tiled graphics. In 1985, Sega released the Terebi Oekaki, also known as the Sega Graphic Board, for the SG-1000 video game console and SC-3000 home computer.`,
-                    'bg': `BG TEXT`
-                },
-                "details": {
-                    "bg": {
-                        "title": ``,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    },
-                    "en": {
-                        "title": `Touchscreen`,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    }
-
-                }
+            "bg": {
+                "title": ``,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
             },
-
-            "3d-televesion": {
-                'photo': `https://ksassets.timeincuk.net/wp/uploads/sites/54/2010/06/13328-txp50vt20bimg1-1.jpg`,
-                'text': {
-                    'en': `The stereoscope was first invented by Sir Charles Wheatstone in 1838. It showed that when two pictures are viewed stereoscopically, they are combined by the brain to produce 3D depth perception. The stereoscope was improved by Louis Jules Duboscq, and a famous picture of Queen Victoria was displayed at The Great Exhibition in 1851. In 1855 the Kinematoscope was invented. In the late 1890s, the British film pioneer William Friese-Greene filed a patent for a 3D movie process. On 10 June 1915, former Edison Studios chief director Edwin S. Porter and William E. Waddell presented tests in red-green anaglyph to an audience at the Astor Theater in New York City and in 1922 the first public 3D movie The Power of Love was displayed.`,
-                    'bg': `BG TEXT`
-                },
-                "details": {
-                    "bg": {
-                        "title": ``,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    },
-                    "en": {
-                        "title": `3D televesion`,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    }
-
-                }
-            },
-
-            "artificial-intelligence": {
-                'photo': `https://gabrielamueller.com/wp-content/uploads/2019/01/gabriela-mueller-artifitcial-intelligence-2000.jpg`,
-                'text': {
-                    'en': `The team behind the AlphaGo artificial intelligence program announced that it had become the world’s best go player. Go is a game with very simple rules but many possible positions. The previous year AlphaGo had defeated the great player Lee Sedol in a match 4–1. AlphaGo then played itself and, through continual improvement, was able to defeat the version that had defeated Lee, 100–0. Through machine learning, AlphaGo had become better at the game than any human.`,
-                    'bg': `BG TEXT`
-                },
-                "details": {
-                    "bg": {
-                        "title": ``,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    },
-                    "en": {
-                        "title": `Artificial-intelligence`,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    }
-
-                }
-            },
-
-            "quantum-computers": {
-                'photo': `https://ignasisayol.com/wp-content/uploads/2019/04/computer-cuanticos.png`,
-                'text': {
-                    'en': ` Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.[1]:I-5 Quantum computers are believed to be able to solve certain computational problems, such as integer factorization , substantially faster than classical computers. The study of quantum computing is a subfield of quantum information science. `,
-                    'bg': `BG TEXT`
-                },
-                "details": {
-                    "bg": {
-                        "title": ``,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    },
-                    "en": {
-                        "title": `Quantum Computer`,
-                        "createdBy": ``,
-                        "howInvented": ``,
-                        "howUsed": ``
-                    }
-
-                }
+            "en": {
+                "title": `Touchscreen`,
+                "createdBy": `The first touchscreen was invented in 1972 by Eric A. Johnson who worked at the Royal Radar Establishment in Malvern, England.`,
+                "howInvented": ``,
+                "howUsed": `Tech companies were starting to take notice of this new way to control computers. Hewlett-Packard was the first to release a product that put touchscreens in the hands of everyday users. HP made a name for itself in the 1960s and 70s for creating smaller and smaller computers to the point where it had made one of the first machines to be called a "personal computer", the 9100A. In 1983, Hewlett-Packard released the HP-150, also known as the HP Touchscreen. The included device used a new system for touch input, featuring a grid of infrared emitters and detectors in the monitor's bezel.`
             }
+
+        }
+    },
+
+    "3d-televesion": {
+        'photo': `https://ksassets.timeincuk.net/wp/uploads/sites/54/2010/06/13328-txp50vt20bimg1-1.jpg`,
+        'text': {
+            'en': `The stereoscope was first invented by Sir Charles Wheatstone in 1838. It showed that when two pictures are viewed stereoscopically, they are combined by the brain to produce 3D depth perception. The stereoscope was improved by Louis Jules Duboscq, and a famous picture of Queen Victoria was displayed at The Great Exhibition in 1851. In 1855 the Kinematoscope was invented. In the late 1890s, the British film pioneer William Friese-Greene filed a patent for a 3D movie process. On 10 June 1915, former Edison Studios chief director Edwin S. Porter and William E. Waddell presented tests in red-green anaglyph to an audience at the Astor Theater in New York City and in 1922 the first public 3D movie The Power of Love was displayed.`,
+            'bg': `BG TEXT`
+        },
+        "details": {
+            "bg": {
+                "title": ``,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
+            },
+            "en": {
+                "title": `3D televesion`,
+                "createdBy": `Stereoscopic 3D television was demonstrated for the first time on 10 August 1928, by John Logie Baird in his company's premises at 133 Long Acre, London.`,
+                "howInvented": `The stereoscope was first invented by Sir Charles Wheatstone in 1838. It showed that when two pictures are viewed stereoscopically, they are combined by the brain to produce 3D depth perception. The stereoscope was improved by Louis Jules Duboscq, and a famous picture of Queen Victoria was displayed at The Great Exhibition in 1851. In 1855 the Kinematoscope was invented. In the late 1890s, the British film pioneer William Friese-Greene filed a patent for a 3D movie process. On 10 June 1915, former Edison Studios chief director Edwin S. Porter and William E. Waddell presented tests in red-green anaglyph to an audience at the Astor Theater in New York City and in 1922 the first public 3D movie The Power of Love was displayed.`,
+                "howUsed": `The first 3D TV was produced in 1935, and stereoscopic 3D still cameras for personal use had already become fairly common by the Second World War. Many 3D movies were produced for theatrical release in the US during the 1950s just when television started to become popular.`
+            }
+
+        }
+    },
+
+    "artificial-intelligence": {
+        'photo': `https://gabrielamueller.com/wp-content/uploads/2019/01/gabriela-mueller-artifitcial-intelligence-2000.jpg`,
+        'text': {
+            'en': `The team behind the AlphaGo artificial intelligence program announced that it had become the world’s best go player. Go is a game with very simple rules but many possible positions. The previous year AlphaGo had defeated the great player Lee Sedol in a match 4–1. AlphaGo then played itself and, through continual improvement, was able to defeat the version that had defeated Lee, 100–0. Through machine learning, AlphaGo had become better at the game than any human.`,
+            'bg': `BG TEXT`
+        },
+        "details": {
+            "bg": {
+                "title": ``,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
+            },
+            "en": {
+                "title": `Artificial-intelligence`,
+                "createdBy": `The field of AI research was founded at a workshop held on the campus of Dartmouth College during the summer of 1956.`,
+                "howInvented": ``,
+                "howUsed": `Beyond our quantum-computing conundrum, today's so-called A.I. systems are merely advanced machine learning software with extensive behavioral algorithms that adapt themselves to our likes and dislikes. While extremely useful, these machines aren't getting smarter in the existential sense, but they are improving their skills and usefulness based on a large dataset.`
+            }
+
+        }
+    },
+
+    "quantum-computers": {
+        'photo': `https://ignasisayol.com/wp-content/uploads/2019/04/computer-cuanticos.png`,
+        'text': {
+            'en': ` Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.[1]:I-5 Quantum computers are believed to be able to solve certain computational problems, such as integer factorization , substantially faster than classical computers. The study of quantum computing is a subfield of quantum information science. `,
+            'bg': `BG TEXT`
+        },
+        "details": {
+            "bg": {
+                "title": ``,
+                "createdBy": ``,
+                "howInvented": ``,
+                "howUsed": ``
+            },
+            "en": {
+                "title": `Quantum Computer`,
+                "createdBy": `Quantum computing began in the early 1980s, when physicist Paul Benioff proposed a quantum mechanical model of the Turing machine. Richard Feynman and Yuri Manin later suggested that a quantum computer had the potential to simulate things that a classical computer could not. In 1994, Peter Shor developed a quantum algorithm for factoring integers that had the potential to decrypt RSA-encrypted communications.`,
+                "howInvented": ``,
+                "howUsed": `There are several models of quantum computing, including the quantum circuit model, quantum Turing machine, adiabatic quantum computer, one-way quantum computer, and various quantum cellular automata. The most widely used model is the quantum circuit. Quantum circuits are based on the quantum bit, or "qubit", which is somewhat analogous to the bit in classical computation.`
+            }
+
         }
     }
 };
