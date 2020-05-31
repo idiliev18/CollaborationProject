@@ -1,211 +1,126 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 body {
-    overflow-x: hidden;
+    background-color: #303952;
 }
 
-.introduction {
-    max-width: 100%;
+.our-team {
     font-family: "Montserrat", sans-serif;
-    min-height: 100vh;
-    background-color: #058ceb;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: screen;
+    overflow: hidden;
+    text-align: center;
+    padding: 60px;
 }
 
-.introduction .nav-animation {
-    background-color: #058ceb;
-    border: none;
-    position: fixed;
-    width: 100%;
-    min-height: 7vh;
+.our-team h1 {
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 40px;
 }
 
-.introduction nav {
+.distance {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 3px;
+    background-color: #058ceb;
+}
+
+.photos {
+    margin-bottom: 40px;
+}
+
+.photos a {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 26px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.photos a img {
     width: 100%;
-    z-index: 10;
-    -webkit-transition: all 0.10s;
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 7vh;
-    border-bottom: 1.5px solid lightblue;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
 }
 
-.introduction nav #logo {
-    color: lightblue;
-    /* font-family: 'Courgette', cursive;*/
-    padding: 0px 25px;
-    flex-basis: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.each {
+    color: black;
+    width: 600px;
+    height: 0;
+    margin: auto;
+    font-size: 20px;
+    overflow: hidden;
+    text-align: justify;
 }
 
-.introduction nav .nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: distribute;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    flex-basis: 60%;
+.each:target {
+    height: auto;
 }
 
-.introduction nav .nav-links a {
-    color: lightblue;
-    text-decoration: none;
+.role-name {
+    text-align: center;
+    display: block;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
-.introduction nav .nav-links :hover {
-    opacity: 0.1;
-}
-
-
-/* max-width: 100%;
-    font-family: "Montserrat",
-    sans-serif;
-    min-height: 100vh;
-    background-image: url("../img/tempPh.jpg");
-    background-repeat: no-repeat;s
-    background-size: cover;
-    background-blend-mode: screen;
-} */
-
-.introduction .nav-animation {
+.distance-hr {
+    display: block;
+    margin: auto;
+    margin-bottom: 36px;
+    width: auto;
+    height: 3px;
     background-color: #058ceb;
-    border: none;
-    position: fixed;
-    width: 100%;
-    min-height: 7vh;
 }
 
-.introduction nav #logo {
-    width: 100%;
-    z-index: 10;
-    -webkit-transition: all 0.10s;
-    transition: all 0.5s;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 7vh;
-    border-bottom: 1.5px solid lightblue;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center
+.our-mission {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    text-align: center;
+    padding: 60px;
 }
 
-.introduction a #logo {
-    color: lightblue;
-    /* font-family: 'Courgette', cursive;*/
-    padding: 0px 25px;
-    flex-basis: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.our-mission h1 {
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: black;
+    font-size: 40px;
 }
 
-.introduction nav .nav-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: distribute;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    flex-basis: 60%;
+.ms {
+    color: black;
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
 }
 
-.introduction nav .nav-links a {
-    color: lightblue;
-    text-decoration: none;
+button {
+    font-family: 'Bangers', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 20px 0px;
+    background: #058ceb;
+    border: 2px solid #34495e;
+    padding: 10px 35px;
+    color: white;
+    cursor: pointer;
 }
 
-.introduction nav .nav-links :hover {
-    opacity: 0.1;
-}
-
-.class a {
-    color: lightblue;
-    text-decoration: none;
-}
-
-.ilko
-{
-position: absolute;
-left: 100px;
-top:200px;
-}
-
-.ivelin
-{
-    position: absolute;
-left: 600px;
-top:200px;
-}
-
-.qnko
-{
-    position: absolute;
-left: 1100px;
-top:200px;
-}
-
-.jelqzko
-{
-    position: absolute;
-left: 100px;
-top:600px;
-}
-
-.stoqn
-{
-    position: absolute;
-left: 600px;
-top:600px;
-}
-
-.egor
-{
-    position: absolute;
-    left: 1100px;
-    top:600px;
-}
-
-@media screen and( max-width: 1200px)
-{
-
-.about{
-    padding :80px;
-}
-}
-
-@media screen and (max-width: 1000px)
-{
-    .introduction
-    {
-        background-size:100%;
-        padding:100px 40px;
-    }
-    .about
-    {
-        width:100%;
-    }
-}
-@media screen and (max-width: 600px)
-{
-    .introduction{
-        background-size: 100%;
-        padding:100px 40px;
-    }
-    .about{
-        width: 100%;
-    }
+#ct, #ct2, #ct3 {
+    text-align: start;
 }

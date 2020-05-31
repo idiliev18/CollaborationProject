@@ -1,0 +1,32 @@
+h1
+{
+    text-align:center;
+   
+}
+p
+{
+    font-size:25px;
+}
+.photo
+{
+    position:absolute;
+    top:70px;
+    width:450px;
+right:40%;
+
+}
+.author
+{
+    position:absolute;
+    top:400px;
+}
+.howInvented
+{
+    position:absolute;
+    top:700px;
+}
+.howUsed
+{
+    position:absolute;
+    top:1000px;
+}
