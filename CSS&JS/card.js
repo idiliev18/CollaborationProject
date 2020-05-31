@@ -14,9 +14,9 @@ var cardText = {
         "details": {
             "bg": {
                 "title": `Компас`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `Първият магнетитен компас е изобретен в Китай`,
+                "howInvented": `Първото сигурно споменаване на магнитният компас е от китайска книга, завършена през 1044 година`,
+                "howUsed": `Първоначало е бил използван за гадаене, `
             },
             "en": {
                 "title": `The first magnetic compass`,
@@ -374,9 +374,9 @@ var cardText = {
             },
             "en": {
                 "title": `Rocketry`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `On March 16, 1926, Goddard fired his first liquid-fueled rocket. It burned for about 20 seconds before taking off, melting part of the nozzle.`,
+                "howInvented": `Powder rockets were still problematic. Goddard returned to an idea he first developed in 1914 for a liquid-fueled rocket. Hermann Oberth in Germany and Konstantin Tsiolkovsky in Russia had both reached the same conclusion. Working independently — with no apparent knowledge of one another's research — they made similar developments in the field of rocket science. All three are considered to be the fathers of modern rocketry.`,
+                "howUsed": `This prototype is very important because they are the start of real rockets`
             }
 
         }
@@ -397,9 +397,9 @@ var cardText = {
             },
             "en": {
                 "title": `TV`,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `The invention of television was the work of many individuals in the late 19th and early 20th centuries.`,
+                "howInvented": `The first practical transmissions of moving images over a radio system used mechanical rotating perforated disks to scan a scene into a time-varying signal that could be reconstructed at a receiver back into an approximation of the original image. Several different standards for addition of color to transmitted images were developed, with different regions using technically incompatible signal standards. Television broadcasting expanded rapidly after World War II, becoming an important mass medium for advertising, propaganda, and entertainment.`,
+                "howUsed": `It is used to to disseminate information and for fun.`
             }
 
         }
@@ -420,7 +420,7 @@ var cardText = {
             },
             "en": {
                 "title": `Computer`,
-                "createdBy": ``,
+                "createdBy": `The first mechanical computer, created by Charles Babbage in 1822, doesn't really resemble what most would consider a computer today.`,
                 "howInvented": ``,
                 "howUsed": ``
             }
@@ -445,7 +445,7 @@ var cardText = {
                 "title": `Helicopter`,
                 "createdBy": `The first helicopter was designed by Igor Sikorsky and built by the Vought-Sikorsky Aircraft Division of the United Aircraft Corporation, it was the first to incorporate a single main rotor and tail rotor design. Its first flight was on September 14, 1939 when the VS-300 took flight at Stratford, Connecticut.`,
                 "howInvented": ``,
-                "howUsed": `Helicopter is used for fast travel. The helicopter can go to hard to come places and to save lives.`
+                "howUsed": `The helicopter is used for exploring areas and transporting people over the ground.`
             }
 
         }

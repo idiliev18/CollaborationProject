@@ -25,29 +25,19 @@ include("DataBase/dbConnect.php");
                 <h1>J&H</h1>
             </div>
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="#">Goal</a>
-                <a href="about.html">About us</a>
-                <a href="contact.html">Contact us</a>
+                <a href="index.html" data-lang="nav-home">Home</a>
+                <a href="#" data-lang="nav-goal">Goal</a>
+                <a href="about.html" data-lang="nav-about">About us</a>
+                <a href="contact.html" data-lang="nav-contact">Contact us</a>
                 <button class="translate-button translate-bg" data-lng="bg"><img src="../img/bg.svg" alt="bg" class="countryFlag"></button>
                 <button class="translate-button translate-en" data-lng="en"><img src="../img/en.svg" alt="en" class="countryFlag"></button>
             </div>
         </nav>
-        <!--  
-        <div class="container">
-            <form action="PHP/contactProcess.php" method="POST">
-                </br>
-                Your Name<input type="text" name="username" placeholder="Name"></br>
-                Your email <input class="input" type="email" name="email" placeholder="Email"></br>
-                Message<input type="text" name="message" placeholder="Message"></br>
-                <input type="submit" name="submit">
-            </form>
-        </div>
-    -->
+
         <form action="PHP/contactProcess.php" method="POST">
             <div class="pedal">
                 <div class="row">
-                    <h1 id="h1">Contact us</h1>
+                    <h1 id="h1" data-lang="contactus">Contact us</h1>
                 </div>
                 <div class="row input-container">
                     <div class="col-xs-12">
