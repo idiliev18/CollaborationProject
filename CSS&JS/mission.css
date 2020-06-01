@@ -57,12 +57,20 @@
      font-family: 'Bangers', cursive;
      font-family: 'ZCOOL QingKe HuangYou', cursive;
      font-family: 'Noto Sans TC', sans-serif;
-     margin: 20px 0px;
+     margin: 10px 0px;
      background: #058ceb;
      border: 2px solid #34495e;
-     padding: 10px 35px;
+     padding: 7px 35px;
      color: white;
      cursor: pointer;
+ }
+ 
+ .translate-button.translate-bg {
+     background-image: url("images/bg.svg");
+ }
+ 
+ .translate-button.translate-en {
+     background-image: url("images/en.jpg");
  }
  
  @media screen and (max-width:1200px) {

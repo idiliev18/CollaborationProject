@@ -188,7 +188,7 @@ var textTranslation = {
     },
 
     "automobile": {
-        'en': `automobile `,
+        'en': `Automobile `,
 
         'bg': `Автомобил `
     },
@@ -200,9 +200,9 @@ var textTranslation = {
     },
 
     "internal-combustion-engine": {
-        'en': `Internal combustion engine `,
+        'en': `Int. combustion engine `,
 
-        'bg': `Двигател с вътрешно горене`
+        'bg': `Двигател с вътр. горене`
     },
 
     "telephone": {
@@ -341,6 +341,11 @@ var textTranslation = {
         'en': `Iliyan Iliev (Developer)`,
 
         'bg': `Илиян Илиев (Разработчик)`
+    },
+    "home": {
+        'en': `Home`,
+
+        'bg': `Начална Страница`
     },
 
 }

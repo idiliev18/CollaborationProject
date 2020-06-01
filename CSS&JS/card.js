@@ -164,7 +164,7 @@ var cardText = {
                 "howInvented": `In the early 1820s, Nicéphore Niépce became interested in using a light-sensitive solution to make 
                 copies of lithographs onto glass, zinc, and finally a pewter plate. He then had the great idea to use his solution
                 to make a copy of an image in a camera obscur.`,
-                "howUsed": `The photography helped humanity to capture moments, people, nature and save them for the future`
+                "howUsed": `The photography helped humanity to capture moments, people, nature and save them for the future.`
             }
 
         }
@@ -185,9 +185,9 @@ var cardText = {
             },
             "en": {
                 "title": `Telegraph`,
-                "createdBy": `Claude Chappe, (born Dec. 25, 1763, Brûlon, Fr.—died Jan. 23, 1805, Paris), French engineer and cleric who converted an old idea into a reality by inventing the semaphore visual telegraph.`,
-                "howInvented": `The system was extensively used in France, and European countries controlled by France, during the Napoleonic era.`,
-                "howUsed": ``
+                "createdBy": `Claude Chappe, French engineer and cleric who converted an old idea into a reality by inventing the semaphore visual telegraph.`,
+                "howInvented": `The telegraph was invented, so two sides can communicate encrypted.`,
+                "howUsed": `The telegraph revolutionized long-distance communication. It worked by transmitting electrical signals over a wire laid between stations.`
             }
 
         }
@@ -257,7 +257,7 @@ var cardText = {
                 "title": `Electric light`,
                 "createdBy": `In 1878, Edison focused on inventing a safe, inexpensive electric light to replace the gaslight–a challenge that scientists had been grappling with for the last 50 years.`,
                 "howInvented": `With the help of prominent financial backers like J.P. Morgan and the Vanderbilt family, Edison set up the Edison Electric Light Company and began research and development. He made a breakthrough in October 1879 with a bulb that used a platinum filament, and in the summer of 1880 hit on carbonized bamboo as a viable alternative for the filament, which proved to be the key to a long-lasting and affordable light bulb.`,
-                "howUsed": `It replace the gas lamps`
+                "howUsed": `The electric light replaced the gas lamp, bacause it was a better decision.`
             }
 
         }
@@ -280,7 +280,7 @@ var cardText = {
                 "title": `Automobile`,
                 "createdBy": `In 1885 Siegfried Marcus built his first combustion engine powered pushcart, followed by four progressively more sophisticated combustion-engine cars over a 10-to-15-year span that influenced later cars. `,
                 "howInvented": `Vital to the modern automobile is the internal combustion engine. This type of engine uses an explosive combustion of fuel to push a piston within a cylinder. The piston's movement turns a crankshaft that is connected to the car's wheels of a drive shaft. `,
-                "howUsed": `Car is used for faster transport`
+                "howUsed": `The car is used to transport people and cargo.`
             }
 
         }
@@ -352,7 +352,7 @@ var cardText = {
                 "title": `Airplane`,
                 "createdBy": `The Wright brothers—Orville (August 19, 1871 – January 30, 1948) and Wilbur (April 16, 1867 – May 30, 1912)—were two American aviation pioneers generally credited with inventing, building, and flying the world's first successful motor-operated airplane.`,
                 "howInvented": `Wilbur and Orville Wright played with a toy rubber-powered flyer as children and flew kites, spurring their inspiration for flight early in life. Their eventual first flight at Kitty Hawk, North Carolina, relied upon innovations in flight control and self-propulsion — both necessary for the aircraft to stay aloft without crashing during its first successful flight tests, on Dec. 17, 1903.`,
-                "howUsed": `Traveling`
+                "howUsed": `The airplane can transport lots of people and cargo over big distances for short time.`
             }
 
         }
@@ -376,7 +376,7 @@ var cardText = {
                 "title": `Rocketry`,
                 "createdBy": `On March 16, 1926, Goddard fired his first liquid-fueled rocket. It burned for about 20 seconds before taking off, melting part of the nozzle.`,
                 "howInvented": `Powder rockets were still problematic. Goddard returned to an idea he first developed in 1914 for a liquid-fueled rocket. Hermann Oberth in Germany and Konstantin Tsiolkovsky in Russia had both reached the same conclusion. Working independently — with no apparent knowledge of one another's research — they made similar developments in the field of rocket science. All three are considered to be the fathers of modern rocketry.`,
-                "howUsed": `This prototype is very important because they are the start of real rockets`
+                "howUsed": `The first rockets are prototypes of the real rockets we know now.`
             }
 
         }
@@ -408,7 +408,7 @@ var cardText = {
     "computer": {
         'photo': `https://1r8nvx3oj5o42h1uno3u4qkw-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/a-brief-history-on-the-invention-of-the-computer-when-was-the-first-computer-really-invented.gif`,
         'text': {
-            'en': ``,
+            'en': `The first mechanical computer, created by Charles Babbage in 1822.`,
             'bg': `BG TEXT`
         },
         "details": {
@@ -421,8 +421,8 @@ var cardText = {
             "en": {
                 "title": `Computer`,
                 "createdBy": `The first mechanical computer, created by Charles Babbage in 1822, doesn't really resemble what most would consider a computer today.`,
-                "howInvented": ``,
-                "howUsed": ``
+                "howInvented": `During his lifetime, Babbage was accused of being more interested in the theory and cutting edge of innovation than actually producing the tables the government was paying him to create. This wasn’t exactly unfair, because by the time the funding for the Difference Engine had evaporated, Babbage had come up with a new idea: the Analytical Engine. This was a massive step beyond the Difference Engine: it was a general-purpose device that could compute many different problems.`,
+                "howUsed": `Babbage's computer was used for calculations, recording information, entering data and printing.`
             }
 
         }
@@ -444,7 +444,7 @@ var cardText = {
             "en": {
                 "title": `Helicopter`,
                 "createdBy": `The first helicopter was designed by Igor Sikorsky and built by the Vought-Sikorsky Aircraft Division of the United Aircraft Corporation, it was the first to incorporate a single main rotor and tail rotor design. Its first flight was on September 14, 1939 when the VS-300 took flight at Stratford, Connecticut.`,
-                "howInvented": ``,
+                "howInvented": `As a child, Igor Sikorsky got interested in natural science and started experimenting making helicopter prototypes.`,
                 "howUsed": `The helicopter is used for exploring areas and transporting people over the ground.`
             }
 
@@ -514,7 +514,7 @@ var cardText = {
                 "title": `Microwave oven`,
                 "createdBy": `The first microwave ovens were developed around 1949, when in a bit of serendipity, engineer Percy LeBaron Spencer noticed that microwave communication equipment could be used to heat foods.`,
                 "howInvented": `Spencer had a chocolate bar in his pocket and noticed (no doubt messily) that the candy melted when he was near some microwave equipment. Quickly coming to the conclusion that other types of food could be heated that way, the Raytheon Company, Spencer’s employer, filed the first patents for a microwave oven later that year.`,
-                "howUsed": `It is used for faster way to heat foods than normal ovens. The use high-powered radio waves to cook food more evenly`
+                "howUsed": `It is used for faster way to heat foods.`
             }
 
         }
@@ -537,7 +537,7 @@ var cardText = {
                 "title": `Spaceflight`,
                 "createdBy": `Derivatives of Korolev's R-7 Semyorka missiles were used to launch the world's first artificial Earth satellite, Sputnik 1, on October 4, 1957, and later the first human to orbit the Earth, Yuri Gagarin in Vostok 1, on April 12, 1961.`,
                 "howInvented": `Tsiolkovsky's rocketry work was not fully appreciated in his lifetime, but he influenced Sergey Korolev, who became the Soviet Union's chief rocket designer under Joseph Stalin, to develop intercontinental ballistic missiles to carry nuclear weapons as a counter measure to United States bomber planes. `,
-                "howUsed": `The spaceflight's help mankind to discover the space. To go to some other planet's to take samples for testing if they are livable.`
+                "howUsed": `The spaceflight's help mankind to discover the space and exploring planets.`
             }
 
         }
@@ -559,8 +559,8 @@ var cardText = {
             "en": {
                 "title": `Personal computer`,
                 "createdBy": `The IBM 610 was designed between 1948 and 1957 by John Lentz at the Watson Lab at Columbia University as the Personal Automatic Computer (PAC) and announced by IBM as the 610 Auto-Point in 1957. Although it was faulted for its speed, the IBM 610 handled floating-point arithmetic naturally. With a price tag of $55,000, only 180 units were produced.`,
-                "howInvented": `ENIAC and other early computers proved to many universities and corporations that the machines were worth the tremendous investment of money, space and manpower they demanded. (For example, ENIAC could solve in 30 seconds a missile-trajectory problem that could take a team of human “computers” 12 hours to complete.) At the same time, new technologies were making it possible to build computers that were smaller and more streamlined. In 1948, Bell Labs introduced the transistor, an electronic device that carried and amplified electrical current but was much smaller than the cumbersome vacuum tube. Ten years later, scientists at Texas Instruments and Fairchild Semiconductor came up with the integrated circuit, an invention that incorporated all of the computer’s electrical parts–transistors, capacitors, resistors and diodes–into a single silicon chip.`,
-                "howUsed": `one person at a time. A typical personal computer assemblage consists of a central processing unit (CPU), which contains the computer’s arithmetic, logic, and control circuitry on an integrated circuit; two types of computer memory, main memory, such as digital random-access memory (RAM), and auxiliary memory, such as magnetic hard disks and special optical compact discs, or read-only memory (ROM) discs (CD-ROMs and DVD-ROMs); and various input/output devices, including a display screen, keyboard and mouse, modem, and printer.`
+                "howInvented": `One person at a time. A typical personal computer assemblage consists of a central processing unit (CPU), which contains the computer’s arithmetic, logic, and control circuitry on an integrated circuit; two types of computer memory, main memory, such as digital random-access memory (RAM), and auxiliary memory, such as magnetic hard disks and special optical compact discs, or read-only memory (ROM) discs (CD-ROMs and DVD-ROMs); and various input/output devices, including a display screen, keyboard and mouse, modem, and printer.`,
+                "howUsed": `With personal computer you can do almost everything. You can search information easily. You can write programs for different things. And it's for funny too.`
             }
 
         }
@@ -655,7 +655,7 @@ var cardText = {
             "en": {
                 "title": `MP3 player`,
                 "createdBy": `In 1997, the world's first MP3 player, the MPMan F10, was developed by a South Korean company SaeHan Information Systems.`,
-                "howInvented": ``,
+                "howInvented": `Unknown.`,
                 "howUsed": `MP3 players can be used to play both audio CDs and homemade data CDs containing MP3 or other digital audio files.`
             }
 
@@ -678,7 +678,7 @@ var cardText = {
             "en": {
                 "title": `Touchscreen`,
                 "createdBy": `The first touchscreen was invented in 1972 by Eric A. Johnson who worked at the Royal Radar Establishment in Malvern, England.`,
-                "howInvented": ``,
+                "howInvented": `Eric Johnson, of the Royal Radar Establishment, located in Malvern, England, described his work on capacitive touchscreens in a short article published in 1965 and then more fully—with photographs and diagrams—in an article published in 1967. The application of touch technology for air traffic control was described in an article published in 1968. Frank Beck and Bent Stumpe, engineers from CERN , developed a transparent touchscreen in the early 1970s,`,
                 "howUsed": `Tech companies were starting to take notice of this new way to control computers. Hewlett-Packard was the first to release a product that put touchscreens in the hands of everyday users. HP made a name for itself in the 1960s and 70s for creating smaller and smaller computers to the point where it had made one of the first machines to be called a "personal computer", the 9100A. In 1983, Hewlett-Packard released the HP-150, also known as the HP Touchscreen. The included device used a new system for touch input, featuring a grid of infrared emitters and detectors in the monitor's bezel.`
             }
 
@@ -724,7 +724,7 @@ var cardText = {
             "en": {
                 "title": `Artificial-intelligence`,
                 "createdBy": `The field of AI research was founded at a workshop held on the campus of Dartmouth College during the summer of 1956.`,
-                "howInvented": ``,
+                "howInvented": `The history of Artificial Intelligence began in antiquity, with myths, stories and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen. The seeds of modern AI were planted by classical philosophers who attempted to describe the process of human thinking as the mechanical manipulation of symbols. This work culminated in the invention of the programmable digital computer in the 1940s, a machine based on the abstract essence of mathematical reasoning. This device and the ideas behind it inspired a handful of scientists to begin seriously discussing the possibility of building an electronic brain.`,
                 "howUsed": `Beyond our quantum-computing conundrum, today's so-called A.I. systems are merely advanced machine learning software with extensive behavioral algorithms that adapt themselves to our likes and dislikes. While extremely useful, these machines aren't getting smarter in the existential sense, but they are improving their skills and usefulness based on a large dataset.`
             }
 
@@ -746,7 +746,7 @@ var cardText = {
             },
             "en": {
                 "title": `Quantum Computer`,
-                "createdBy": `Quantum computing began in the early 1980s, when physicist Paul Benioff proposed a quantum mechanical model of the Turing machine. Richard Feynman and Yuri Manin later suggested that a quantum computer had the potential to simulate things that a classical computer could not. In 1994, Peter Shor developed a quantum algorithm for factoring integers that had the potential to decrypt RSA-encrypted communications.`,
+                "createdBy": `In 2019 IBM unveiled its first commercial quantum computer, the IBM Q System One, designed by UK-based Map Project Office and Universal Design Studio and manufactured by Goppion.`,
                 "howInvented": ``,
                 "howUsed": `There are several models of quantum computing, including the quantum circuit model, quantum Turing machine, adiabatic quantum computer, one-way quantum computer, and various quantum cellular automata. The most widely used model is the quantum circuit. Quantum circuits are based on the quantum bit, or "qubit", which is somewhat analogous to the bit in classical computation.`
             }
