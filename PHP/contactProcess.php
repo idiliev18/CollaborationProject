@@ -12,7 +12,7 @@ mysqli_close($db_connect);
 
         $to='collabcontactform@gmail.com';
 		$subject='Form Submission';
-		$msg="Name :".$username."\n"."Email :".$email."\n"."IP: ".$ip."\n\n"."Message :".$message;
+		$msg="Name: ".$username."\n"."Email: ".$email."\n"."IP: ".$ip."\n\n"."Message: ".$message;
 		echo $msg;
 		$headers="From: ".$email;
 mail($to, $subject, $msg, $headers);
