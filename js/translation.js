@@ -103,7 +103,7 @@ var textTranslation = {
     },
 
     "stoyan-text": {
-        'en': `As a developer, Stoyan helped with the creating of the main page, dynamically loading card information `,
+        'en': `As a developer, Stoyan helped with the creating of the main page, dynamically loading card information. `,
 
         'bg': `Като разработчик, Стоян помогна с създаването на главната страница и създавамето на динамичното зареждане на инфорацията в картите. `
     },
@@ -116,14 +116,15 @@ var textTranslation = {
 
 
     "ilko-text": {
-        'en': `Iliyan is a developer. He made a contact form with PHP and mySQL and helped with finding information for the timeline `,
+        'en': `Iliyan is a developer. He made a contact form with PHP and mySQL and helped with finding information for the timeline. `,
 
-        'bg': `Илиян е разработчик. Той направи контакт форма с PHP и mySQl и помогна с търсенето на информация за линията на времето`
+        'bg': `Илиян е разработчик. Той направи контакт форма с PHP и mySQl и помогна с търсенето на информация за линията на времето.
+    `
     },
 
 
     "dimitar-text": {
-        'en': `As a developer, he participated in making the timeline, finding information and creating the dynamically loading the information . `,
+        'en': `As a developer, he participated in making the timeline, finding information and creating the dynamically loading the information. `,
 
         'bg': `Като разработчик той участваше в изготвянето на линията на времето, търсенето на информация и създаването на динамичното зареждане на ифнормация. `
     },
@@ -367,7 +368,7 @@ var textTranslation = {
     },
     "isvalne": {
         'en': "Please enter a valid Email",
-        'bg': "Моля въведете валидена електронна поща"
+        'bg': "Моля въведете валидна електронна поща"
     },
     "cn-msg": {
         'en': "Message",
@@ -397,7 +398,8 @@ var textTranslation = {
     "um": {
         'en': "Our Mission",
         'bg': "Нашата мисия"
-    },
+    }
+
 
 
 }

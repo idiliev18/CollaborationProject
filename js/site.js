@@ -7,7 +7,7 @@ $(document).ready(function() { // run when the whole site is loaded
     });
 
     // select all 'a' atributes that contain in their href '#'
-    $('a[href*="#"]').on('click', function(e) {
+    $('a.InfoButton').on('click', function(e) {
 
         // Prevent event bubling (i.e. the browser will not add #element_id in address bar)
         e.preventDefault();
@@ -35,7 +35,6 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-
 }
 
 $(() => {
@@ -71,11 +70,11 @@ $(() => {
             cardLeft = itemOffset.left + item.width() + 70;
         }
 
-        let para = card.find("div.text center p");
+        let para = card.find("div.text p.details");
         let img = card.find("div.photo img");
         let readMore = card.find("div.text p.read-more a");
 
-
+        console.log("Hover");
         if (cardText.hasOwnProperty(item.data("lang")) && cardText[item.data("lang")]['text'].hasOwnProperty(langId)) {
             let text = cardText[item.data("lang")]["text"][langId];
             let link = cardText[item.data("lang")]["photo"];

@@ -10,14 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Noto+Sans+TC|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/nav.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script defer src="js/nav.js"></script>
     <script defer src="js/site.js"></script>
     <script defer src="js/card.js"></script>
     <script defer src="js/translation.js"></script>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="CSS/nav.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet"> -->
     <title>Project</title>
 </head>
 
@@ -33,11 +32,14 @@
             </div>
 
             <div class="nav-links">
+                <a href="index.html" data-lang="nav-home">Home</a>
                 <a href="html/mission.html" data-lang="nav-goal">Goal</a>
                 <a href="html/about.html" data-lang="nav-about">About us</a>
                 <a href="html/contact.html" data-lang="nav-contact">Contact us</a>
-                <button class="translate-button translate-bg" data-lng="bg"><img src="img/bg.svg" alt="bg" class="countryFlag"></button>
-                <button class="translate-button translate-en" data-lng="en"><img src="img/en.svg" alt="en" class="countryFlag"></button>
+                <div class="lang-bar">
+                    <button class="translate-button translate-bg" data-lng="bg"><img src="img/bg.svg" alt="bg" class="countryFlag"></button>
+                    <button class="translate-button translate-en" data-lng="en"><img src="img/ennew.jpg" alt="en" class="countryFlag"></button>
+                </div>
             </div>
         </nav>
 
@@ -46,7 +48,7 @@
         </div>
 
         <div class="actions-buttons">
-            <div class="button" class="button_cont" align="center">
+            <div class="button" class="button_cont" style="text-align:center">
                 <a href="#timeline" class="InfoButton" rel="nofollow">
                     <span data-lang="timeline-button">Timeline</span>
                 </a>
@@ -440,9 +442,9 @@
         </div>
         <div class="text">
 
-            <p class="text-align:center">!</p>
+            <p class="details">!</p>
 
-            <p class="read-more">
+            <p class="read-more" style="text-align:center">
                 <a href="#" target="_BLANK" class="button">Read more</a>
             </p>
         </div>

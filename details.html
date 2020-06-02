@@ -7,9 +7,10 @@
     <link rel="stylesheet" type="text/css" href="CSS/details.css">
     <link rel="stylesheet" type="text/css" href="CSS/navWP.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script defer src="../js/card.js"></script>
-    <script defer src="../js/details.js"></script>
-    <script defer src="../js/nav.js"></script>
+    <script src="../js/card.js"></script>
+    <script src="../js/details.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/translation.js"></script>
     <title>Details</title>
 </head>
 
@@ -17,43 +18,47 @@
 
     <div class="introduction">
         <nav>
-            <div id="logo">
-                <h1>J&H</h1>
-            </div>
-            <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="../mission.html" data-lang="nav-goal">Goal</a>
-                <a href="../contact.html" data-lang="nav-contact">Contact us</a>
 
-                <button class="translate-button translate-bg" data-lng="bg"><img src="../img/bg.svg" alt="bg" class="countryFlag"></button>
-                <button class="translate-button translate-en" data-lng="en"><img src="../img/en.svg" alt="en" class="countryFlag"></button>
+            <div id="logo">
+                <h1 id="toppage">J&H</h1>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html" data-lang="nav-home">Home</a>
+                <a href="html/mission.html" data-lang="nav-goal">Goal</a>
+                <a href="html/about.html" data-lang="nav-about">About us</a>
+                <a href="html/contact.html" data-lang="nav-contact">Contact us</a>
+                <div class="lang-bar">
+                    <button class="translate-button translate-bg" data-lng="bg"><img src="img/bg.svg" alt="bg" class="countryFlag"></button>
+                    <button class="translate-button translate-en" data-lng="en"><img src="img/ennew.jpg" alt="en" class="countryFlag"></button>
+                </div>
             </div>
         </nav>
 
     </div>
 
     <div class="details">
-        <center>
-            <div class="photo">
-                <img src="" style="width:50%; height: 200px;">
-            </div>
-        </center>
 
-        <div class="title" data-lang="title">
+        <div class="photo" style="text-align: center">
+            <img src="" style="width:50%; height: 200px;">
+        </div>
+
+
+        <div class="title">
             <h1>Title</h1>
         </div>
 
-        <div class="createdBy bordered" data-lang="createdBy">
+        <div class="bordered">
             <h1>Created By:</h1>
             <p></p>
         </div>
 
-        <div class="howInvented bordered" data-lang="howInvented">
+        <div class="bordered">
             <h1>How it was invented:</h1>
             <p></p>
         </div>
 
-        <div class="howUsed bordered" data-lang="howUsed">
+        <div class="bordered">
             <h1>How it was used:</h1>
             <p></p>
         </div>

@@ -36,7 +36,7 @@
 .introduction nav #logo {
     color: lightblue;
     font-family: 'Courgette', cursive;
-    padding: 0px 25px;
+    padding: 0px 35px;
     flex-basis: 55%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -64,7 +64,7 @@
 
 .countryFlag {
     width: 30px;
-    height: 20px;
+    height: 18px;
 }
 
 .logo {
@@ -129,4 +129,8 @@ a:visited,
 a:active,
 a:link {
     color: white;
+}
+
+.translate-button {
+    height: 22px;
 }

@@ -1,3 +1,4 @@
+langId = "en";
 var cardText = {
 
     "compass": {
@@ -444,20 +445,20 @@ var cardText = {
     "lasers": {
         'photo': `https://history.aip.org/history/web-exhibits/laser/images/maiman_theodore_f4_big.jpg`,
         'text': {
-            'en': `On December 23 Bell Labs engineers John Bardeen, Walter Brattain, and William Shockley gave the first public demonstration of the transistor, an electrical component that could control, amplify, and generate current. The transistor was much smaller and used less power than vacuum tubes and ushered in an era of cheap small electronic devices.`,
-            'bg': `BG TEXT`
+            'en': `Charles Townes and Arthur Schawlow invent the maser. Gordon Gould coins the word "laser" and builds the first optical laser in 1958.`,
+            'bg': ``
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Лазери`,
+                "createdBy": `Теодор Х. Майман, физик в изследователските лаборатории на Хюз в Малибу, Калифорния, конструира първия лазер, използвайки цилиндър от синтетичен рубин.`,
+                "howInvented": `Докато идеите се развиват, те изоставят инфрачервеното лъчение, вместо да се концентрират върху видимата светлина. Първоначално концепцията е била наречена "оптичен мазер".`,
+                "howUsed": `Лазерът се различава от другите източници на светлина по това, че излъчва светлина, която е кохерентна. Пространствената кохерентност позволява да се фокусира лазер до плътно място, което позволява приложения като лазерно рязане и литография. Пространствената кохерентност позволява също така лазерен лъч да остане тесен на големи разстояния, което позволява приложения като лазерни указатели и лидар. Лазерите също могат да имат висока времева кохерентност, което им позволява да излъчват светлина с много тесен спектър, т.е. те могат да излъчват един цвят светлина.`
             },
             "en": {
                 "title": `Lasers`,
                 "createdBy": `Theodore H. Maiman, a physicist at Hughes Research Laboratories in Malibu, Calif., constructs the first laser using a cylinder of synthetic ruby.`,
-                "howInvented": ` As ideas developed, they abandoned infrared radiation to instead concentrate upon visible light. The concept originally was called an "optical maser". `,
+                "howInvented": `As ideas developed, they abandoned infrared radiation to instead concentrate upon visible light. The concept originally was called an "optical maser".`,
                 "howUsed": `A laser differs from other sources of light in that it emits light which is coherent. Spatial coherence allows a laser to be focused to a tight spot, enabling applications such as laser cutting and lithography. Spatial coherence also allows a laser beam to stay narrow over great distances (collimation), enabling applications such as laser pointers and lidar. Lasers can also have high temporal coherence, which allows them to emit light with a very narrow spectrum, i.e., they can emit a single color of light.`
             }
 
@@ -468,20 +469,20 @@ var cardText = {
         'photo': `https://images-na.ssl-images-amazon.com/images/I/61F72yIfW8L._AC_SL1000_.jpg`,
         'text': {
             'en': `The exploitation of high-frequency radio waves for heating substances was made possible by the development of vacuum tube radio transmitters around 1920. By 1930 the application of short waves to heat human tissue had developed into the medical therapy of diathermy. At the 1933 Chicago World's Fair, Westinghouse demonstrated the cooking of foods between two metal plates attached to a 10 kW, 60 MHz shortwave transmitter. The Westinghouse team, led by I. F. Mouromtseff, found that foods like steaks and potatoes could be cooked in minutes.`,
-            'bg': `BG TEXT`
+            'bg': `Експлоатацията на високочестотни радиовълни за нагряващи вещества е станала възможна чрез развитието на вакуумни тръбни радиопредаватели около 1920 г. До 1930 г. прилагането на къси вълни за нагряване на човешката тъкан се е превърнало в медицинска терапия на диатермия. На панаира в Чикаго през 1933 г. Westinghouse демонстрира готвене на храни между две метални плочи, прикрепени към 10 кВт, 60 MHz предавател с къси вълни. Екипът на Westinghouse, ръководен от I. F. Mouromtseff, открива, че храни като пържоли и картофи могат да бъдат приготвени за минути.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Микровълнова печка`,
+                "createdBy": `Първите микровълнови печки са разработени около 1949 г., когато в малко по-сериозно състояние инженер Перси Лебарон Спенсър забелязва, че микровълновата комуникационна техника може да се използва за загряване на храни.`,
+                "howInvented": `Спенсър е имал шоколадов бар в джоба си и е забелязал, че бонбоните се стопяват, когато е близо до някакво микровълново оборудване. Бързо стигайки до извода, че други видове храни могат да се нагряват по този начин, компанията Raytheon, работодателят на Спенсър, подават първите патенти за микровълнова фурна по-късно същата година.`,
+                "howUsed": `Използва се за по-бързо загряване на храната.`
             },
             "en": {
                 "title": `Microwave oven`,
                 "createdBy": `The first microwave ovens were developed around 1949, when in a bit of serendipity, engineer Percy LeBaron Spencer noticed that microwave communication equipment could be used to heat foods.`,
-                "howInvented": `Spencer had a chocolate bar in his pocket and noticed (no doubt messily) that the candy melted when he was near some microwave equipment. Quickly coming to the conclusion that other types of food could be heated that way, the Raytheon Company, Spencer’s employer, filed the first patents for a microwave oven later that year.`,
-                "howUsed": `It is used for faster way to heat foods.`
+                "howInvented": `Spencer had a chocolate bar in his pocket and noticed that the candy melted when he was near some microwave equipment. Quickly coming to the conclusion that other types of food could be heated that way, the Raytheon Company, Spencer’s employer, filed the first patents for a microwave oven later that year.`,
+                "howUsed": `It is used to heat food faster.`
             }
 
         }
@@ -490,21 +491,21 @@ var cardText = {
     "spaceflight": {
         'photo': `https://i.ytimg.com/vi/nOz0UV6nfco/hqdefault.jpg`,
         'text': {
-            'en': `The Soviet Union surprised the world on October 4, when it launched the first artificial satellite, Sputnik 1, a small 83.6-kg (184.3-pound) metal sphere. The space race began between the Soviet Union and the United States, opening up a new front in the Cold War.`,
-            'bg': `BG TEXT`
+            'en': `The Soviet Union surprised the world on October 4, when it launched the first artificial satellite, Sputnik 1, a small 83.6-kg metal sphere. The space race began between the Soviet Union and the United States, opening up a new front in the Cold War.`,
+            'bg': `Съветският съюз изненадва света на 4 октомври, когато изстрелва първия изкуствен спътник Sputnik 1, малка 83,6-килограмова метална сфера. Космическата надпревара започва между Съветския съюз и САЩ, откривайки нов фронт в Студената война.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Космически кораби`,
+                "createdBy": `Производни на ракетите R-7 Semyorka на Королев са били използвани за изстрелване на първия в света изкуствен спътник Земя, Sputnik 1, на 4 октомври 1957 г., а по-късно и първият човек на орбита на Земята, Юрий Гагарин в Vostok 1, на 12 април 1961 г.`,
+                "howInvented": `Ракетната работа на Циолковски не е била оценена напълно през живота му, но той е повлиял на Сергей Королев, който става главен ракетен конструктор на Съветския съюз при Йосиф Сталин, да разработи междуконтинентални балистични ракети, които да носят ядрени оръжия като противодействие на бомбардировъчните самолети на САЩ.`,
+                "howUsed": `Космическите кораби помагат на човечеството да открие космоса и да изследва планетите.`
             },
             "en": {
                 "title": `Spaceflight`,
                 "createdBy": `Derivatives of Korolev's R-7 Semyorka missiles were used to launch the world's first artificial Earth satellite, Sputnik 1, on October 4, 1957, and later the first human to orbit the Earth, Yuri Gagarin in Vostok 1, on April 12, 1961.`,
-                "howInvented": `Tsiolkovsky's rocketry work was not fully appreciated in his lifetime, but he influenced Sergey Korolev, who became the Soviet Union's chief rocket designer under Joseph Stalin, to develop intercontinental ballistic missiles to carry nuclear weapons as a counter measure to United States bomber planes. `,
-                "howUsed": `The spaceflight's help mankind to discover the space and exploring planets.`
+                "howInvented": `Tsiolkovsky's rocketry work was not fully appreciated in his lifetime, but he influenced Sergey Korolev, who became the Soviet Union's chief rocket designer under Joseph Stalin, to develop intercontinental ballistic missiles to carry nuclear weapons as a counter measure to United States bomber planes.`,
+                "howUsed": `The spaceflights help mankind to discover the space and exploring planets.`
             }
 
         }
@@ -514,20 +515,20 @@ var cardText = {
         'photo': `https://upload.wikimedia.org/wikipedia/commons/6/69/IBM_PC_5150.jpg`,
         'text': {
             'en': `The first computers that emerged after World War II were gigantic, but, with advances in technology, especially in putting many transistors on a semiconductor chip, computers became both smaller and more powerful. Finally, they became small enough for home use. The first such personal computer was the Altair, which was soon supplanted in 1977 by the Apple II, the TRS-80, and the Commodore PET.`,
-            'bg': `BG TEXT`
+            'bg': `Първите компютри, които се появяват след Втората световна война, са били гигантски, но с напредъка на технологиите, особено при поставянето на много транзистори върху полупроводников чип, компютрите стават както по-малки, така и по-мощни. Накрая те стават достатъчно малки за домашна употреба. Първият такъв персонален компютър е бил Altair, който скоро е бил изместен през 1977 г. от Apple II, TRS-80 и Commodore PET.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Персонален компютър`,
+                "createdBy": `IBM 610 е проектиран между 1948 и 1957 г. от Джон Ленц в лабораторията Уотсън в Колумбийския университет като персонален автоматичен компютър (PAC) и обявен от IBM за 610 Auto-Point през 1957 г. Въпреки че е бил виновен за скоростта си, IBM 610 обработва аритметика с плаваща запетая естествено. С ценови етикет от 55 000 долара са били произведени само 180 бройки.`,
+                "howInvented": `Един човек в даден момент. Типичният сбор от персонални компютри се състои от централен процесор (CPU), който съдържа арифметиката, логиката и контролната схема на компютъра на интегрална схема; два типа компютърна памет, основна памет като цифрова памет с произволен достъп (RAM) и спомагателна памет, като магнитни твърди дискове и специални оптични компактдискове или дискове с памет само за четене (ROM) (CD-ROM и DVD) -ROMs); и различни устройства за вход / изход, включително дисплей, клавиатура и мишка, модем и принтер.`,
+                "howUsed": `С личен компютър можете да направите почти всичко. Можете лесно да търсите информация. Можете да пишете програми за различни неща. И също може да го използвате за забавление.`
             },
             "en": {
                 "title": `Personal computer`,
                 "createdBy": `The IBM 610 was designed between 1948 and 1957 by John Lentz at the Watson Lab at Columbia University as the Personal Automatic Computer (PAC) and announced by IBM as the 610 Auto-Point in 1957. Although it was faulted for its speed, the IBM 610 handled floating-point arithmetic naturally. With a price tag of $55,000, only 180 units were produced.`,
                 "howInvented": `One person at a time. A typical personal computer assemblage consists of a central processing unit (CPU), which contains the computer’s arithmetic, logic, and control circuitry on an integrated circuit; two types of computer memory, main memory, such as digital random-access memory (RAM), and auxiliary memory, such as magnetic hard disks and special optical compact discs, or read-only memory (ROM) discs (CD-ROMs and DVD-ROMs); and various input/output devices, including a display screen, keyboard and mouse, modem, and printer.`,
-                "howUsed": `With personal computer you can do almost everything. You can search information easily. You can write programs for different things. And it's for funny too.`
+                "howUsed": `With a personal computer you can do almost everything. You can search for information easily. You can write programs for different things. And it's for fun too.`
             }
 
         }
@@ -537,23 +538,19 @@ var cardText = {
         'photo': `https://upload.wikimedia.org/wikipedia/commons/d/d5/Lynx-wikipedia.png`,
         'text': {
             'en': `Lynx is a customizable text-based web browser for use on cursor-addressable character cell terminals.`,
-            'bg': `BG TEXT`
+            'bg': `Lynx е персонализиран текстови базиран уеб браузър за използване в терминали за клетка, адресируеми със символи.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Първият текстови базиран уебсайт`,
+                "createdBy": `Уебсайтът е продукт на групата за разпределени компютри в рамките на Академичните компютърни услуги.`,
+                "howInvented": `През 1992 г. от екип студенти и служители в университета като браузър с хипертекст, използван единствено за разпространение на информацията в кампуса като част от информационния сървър на кампуса и за сърфиране в пространството на Gopher. Бета-наличността е обявена на Usenet на 22 юли 1992 г. През 1993 г. Montulli добавя интернет интерфейс и пуска нова версия (2.0) на браузъра.`,
+                "howUsed": `Използва се за навигация през различни уебсайтове.`
             },
             "en": {
                 "title": `The first text-based website`,
-                "createdBy": `The website is product of the Distributed Computing Group within Academic Computing Services.`,
-                "howInvented": `In 1992 by a team of students and staff at the university as a hypertext browser used
-                solely to distribute campus information as part of a Campus-Wide
-                Information Server and for browsing the Gopher space. 
-                Beta availability was announced to Usenet on 22 July 1992. In 1993, 
-                Montulli added an Internet interface and released a new version (2.0) of the browser.`,
+                "createdBy": `The website is а product of the Distributed Computing Group within Academic Computing Services.`,
+                "howInvented": `In 1992 by a team of students and staff at the university as a hypertext browser used solely to distribute campus information as part of a Campus-Wide Information Server and for browsing the Gopher space. Beta availability was announced to Usenet on 22 July 1992. In 1993, Montulli added an Internet interface and released a new version (2.0) of the browser.`,
                 "howUsed": `It was used to navigate through different websites.`
             }
 
@@ -564,14 +561,14 @@ var cardText = {
         'photo': `https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTU3OTIzNTc5MDY5NTQwMzAy/the-worlds-first-web-sites-featured-photo.jpg`,
         'text': {
             'en': `Tim Berners-Lee's vision of a global hyperlinked information system became a possibility by the second half of the 1980s. By 1985, the global Internet began to proliferate in Europe and the Domain Name System (upon which the Uniform Resource Locator is built) came into being. In 1988 the first direct IP connection between Europe and North America was made and Berners-Lee began to openly discuss the possibility of a web-like system at CERN.`,
-            'bg': `BG TEXT`
+            'bg': `Визията на Тим Бернерс-Ли за глобална хиперсвързана информационна система става възможна през втората половина на 80-те години. До 1985 г. глобалният Интернет започва да се разпространява в Европа и се създава Системата за имена на домейни (върху която е изграден Единният локатор на ресурси). През 1988 г. е направена първата пряка IP връзка между Европа и Северна Америка и Бернерс-Ли започва открито да обсъжда възможността за уеб-подобна система в CERN.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `WWW`,
+                "createdBy": `Английският инженер и компютърен учен сър Тимоти Джон Бернерс-Лий изобретява световната мрежа през 1989 г.`,
+                "howInvented": `Визията на Тим Бернерс-Ли за глобална хиперсвързана информационна система става възможна през втората половина на 80-те години. До 1985 г. глобалният Интернет започва да се разпространява в Европа и се създава Системата за имена на домейни (върху която е изграден Единният локатор на ресурси). През 1988 г. е направена първата пряка IP връзка между Европа и Северна Америка и Бернерс-Ли започва открито да обсъжда възможността за уеб-подобна система в CERN.`,
+                "howUsed": `Световната мрежа за първи път е разработена като инструмент за сътрудничество в общността на физиката на висока енергия. WWW се използва за всеки домейн на сайта.`
             },
             "en": {
                 "title": `WWW`,
@@ -587,14 +584,14 @@ var cardText = {
         'photo': `https://online.stanford.edu/sites/default/files/styles/figure_default/public/2018-03/ee_wirelesscommunications_ee359.jpg?itok=Yu3MxAmf`,
         'text': {
             'en': `WiFi was invented and first released for consumers in 1997, when a committee called 802.11 was created. This lead to the creation of IEEE802. 11, which refers to a set of standards that define communication for wireless local area networks`,
-            'bg': `BG TEXT`
+            'bg': `WiFi е изобретен и за първи път пуснат на пазара през 1997 г., когато е създаден комитет, наречен 802.11. Това довежда до създаването на IEEE802. 11, който се отнася до набор от стандарти, които определят комуникацията за безжичните локални мрежи`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Безжичен интернет`,
+                "createdBy": `CSIRO кредитира следните изобретатели за създаването на WLAN: д-р Джон О'Съливан, д-р Тери Пърсивал, г-н Диет Остри, г-н Греъм Даниелс и г-н Джон Дийн.`,
+                "howInvented": `Wi-Fi използва множество части от семейството на протоколите IEEE 802 и е проектиран да работи безпроблемно с Ethernet. Съвместимите устройства могат да се свързват чрез безжични точки за достъп един до друг, както и към кабелни устройства и интернет.`,
+                "howUsed": `За разлика от радиото и телевизията, Wi-Fi обикновено се използва за изпращане на сигнали само на сравнително къси разстояния с предаватели с ниска мощност.`
             },
             "en": {
                 "title": `Wireless internet`,
@@ -610,14 +607,14 @@ var cardText = {
         'photo': `https://regmedia.co.uk/2008/03/10/rio_300_1.jpg`,
         'text': {
             'en': `In 1981, Kane Kramer filed for a UK patent for the IXI, the first Digital Audio Player. UK patent 2115996 was issued in 1985, and U.S. Patent 4,667,088 was issued in 1987. The player was as big as a credit card and had a small LCD screen, navigation and volume buttons and would have held at least 8MB of data in a solid-state bubble memory chip with a capacity of 3 and 1/2 minutes' worth of audio.`,
-            'bg': `BG TEXT`
+            'bg': `През 1981 г. Кейн Крамер подава патент на Обединеното кралство за IXI, първият цифров аудио плейър. Патент на Великобритания 2115996 е издаден през 1985 г., а патент на САЩ 4,667,088 е издаден през 1987 г. Плеърът е голям колкото кредитна карта и има малък LCD екран, бутони за навигация и сила на звука и би държал най-малко 8MB данни в твърд държавен чип за балон памет с капацитет около 3 минути аудио звук.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `MP3 плеър`,
+                "createdBy": `През 1997 г. първият в света MP3 плеър, MPMan F10, е разработен от южнокорейската компания SaeHan Information Systems.`,
+                "howInvented": `Не е известно.`,
+                "howUsed": `MP3 плейърите могат да се използват за възпроизвеждане както на аудио CD, така и на домашни компактдискове с данни, съдържащи MP3 или други цифрови аудио файлове.`
             },
             "en": {
                 "title": `MP3 player`,
@@ -661,8 +658,7 @@ var cardText = {
         "details": {
             "bg": {
                 "title": `3D Телевизор`,
-                "createdBy": `
-                Стереоскопичната 3D телевизия е демонстрирана за първи път на 10 август 1928 г. от Джон Логи Беърд в помещенията на компанията му в 133 Лонг Акър, Лондон.`,
+                "createdBy": `Стереоскопичната 3D телевизия е демонстрирана за първи път на 10 август 1928 г. от Джон Логи Беърд в помещенията на компанията му в 133 Лонг Акър, Лондон.`,
                 "howInvented": `Стереоскопът е изобретен за първи път от сър Чарлз Уитстоун през 1838 г. Той показва, че когато две снимки се разглеждат стереоскопично, те се комбинират от мозъка, за да се получи 3D възприятие на дълбочина. Стереоскопът е подобрен от Луи Жул Дюбоск, а известната картина на кралица Виктория е показана на Голямото изложение през 1851 г. През 1855 г. е изобретен кинематоскопът. В края на 1890 г. британският пионер на филма Уилям Фриз-Грийн подаде патент за 3D филмов процес. На 10 юни 1915 г. бившият главен режисьор Edison Studios Edwin S. Porter и William E. Waddell представят тестове в червено-зелен анаглиф пред публика в театъра Astor в Ню Йорк и през 1922 г. първият публичен 3D филм „Силата на любовта“ е Показва.`,
                 "howUsed": `Първият 3D телевизор е произведен през 1935, а стереоскопичните 3D фотоапарати за лична употреба вече са станали доста често срещани от Втората световна война. Много американски филми бяха произведени за театрално издаие в Сащ през 50-те години на миналият век, точно когато телвизията става популярна.`
             },

@@ -334,6 +334,7 @@ body {
 
 .countryFlag {
     width: 100px;
+    height: 100px;
 }
 
 body {
@@ -359,4 +360,9 @@ body {
 
 #myBtn:hover {
     background-color: #555;
+}
+
+p.details {
+    padding: 6px;
+    text-align: center;
 }

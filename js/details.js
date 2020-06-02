@@ -26,4 +26,5 @@ $(function() {
 
     let howUsedObj = $("div.howUsed p");
     howUsedObj.text(howUsed);
+
 });
