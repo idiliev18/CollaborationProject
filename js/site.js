@@ -16,6 +16,15 @@ $(document).ready(function() { // run when the whole site is loaded
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top }, 400, 'linear');
     });
 
+    $('#myBtn').on('click', function(e) {
+
+        // Prevent event bubling (i.e. the browser will not add #element_id in address bar)
+        e.preventDefault();
+
+        // Scroll the page to the selected element
+        $('html, body').animate({ scrollTop: $($("body")).offset().top }, 300, 'linear');
+    });
+
 });
 
 var mybutton = document.getElementById("myBtn");
