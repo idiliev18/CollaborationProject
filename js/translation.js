@@ -1,7 +1,5 @@
 var textTranslation = {
 
-
-
     "nav-goal": {
         'en': `Goal`,
 
@@ -202,7 +200,7 @@ var textTranslation = {
     "internal-combustion-engine": {
         'en': `Int. combustion engine `,
 
-        'bg': `Двигател с вътр. горене`
+        'bg': `Двиг. с вътр. горене`
     },
 
     "telephone": {
@@ -226,7 +224,7 @@ var textTranslation = {
     "steamboat": {
         'en': `Steamboat `,
 
-        'bg': `Парана лодка `
+        'bg': `Парна лодка `
     },
 
     "steam-engine": {
@@ -347,6 +345,60 @@ var textTranslation = {
 
         'bg': `Начална Страница`
     },
+    "timeline-button": {
+        'en': "Timeline",
+        'bg': "Линия на времето"
+    },
+    "contact-us": {
+        'en': "Contact Us",
+        'bg': "Свържете се с нас"
+    },
+    "cn-name": {
+        'en': "Name",
+        'bg': "Име"
+    },
+    "isvaln": {
+        'en': "Please enter name",
+        'bg': "Моля въведете име"
+    },
+    "cn-em": {
+        'en': "Email",
+        'bg': "Електронна поща"
+    },
+    "isvalne": {
+        'en': "Please enter a valid Email",
+        'bg': "Моля въведете валидена електронна поща"
+    },
+    "cn-msg": {
+        'en': "Message",
+        'bg': "Съобщение"
+    },
+    "isvalm": {
+        'en': "Please enter message",
+        'bg': "Моля въведете съобщение"
+    },
+    "contact-us": {
+        'en': "Contact Us",
+        'bg': "Свържете се с нас"
+    },
+    "cn-sub": {
+        'en': "Submit",
+        'bg': "Изпратете"
+    },
+    "isval": {
+        'en': "Valid",
+        'bg': "Валидно"
+    },
+
+    "goal": {
+        'en': "The purpose of our project is to inform people about technology inventions that changed the world in a timeline format. So that's why we wanted to create a timeline that shows a big portion of the technology inventions.",
+        'bg': "Целта на нашият проект е да информираме хората за технологичните отркития, които са променили света в линия на времто. Това което искахме е да направим линия на времето, която показва голяма част от важните технологични отркития."
+    },
+    "um": {
+        'en': "Our Mission",
+        'bg': "Нашата мисия"
+    },
+
 
 }
 

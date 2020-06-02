@@ -306,20 +306,20 @@ var cardText = {
         'photo': `http://dreamreader.net/wp-content/uploads/2014/10/WrightBrothers-b.jpg`,
         'text': {
             'en': `On December 17 Orville Wright made the first airplane flight, of 120 feet, near Kitty Hawk, North Carolina. He and his brother Wilbur made four flights that day. On the last, Wilbur flew 852 feet.`,
-            'bg': `BG TEXT`
+            'bg': `На 17 декември Орвил Райт извършва първия полет със самолет от 120 фута близо до Кити Хоук, Северна Каролина. Той и брат му Уилбър извършват четири полета този ден. На последния Уилбър лети на цели 852 фута.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Самолет`,
+                "createdBy": `Братята Райт - Орвил и Уилбър са били двама пионери на американската авиация, които обикновено се кредитират за изобретяването, изграждането и летенето на първия успешен самолет в света, управляван с моторни превозни средства.`,
+                "howInvented": `Уилбър и Орвил Райт са играли с гумена играчка като деца и са летяли хвърчила, подтиквайки вдъхновението си за полет в началото на живота. Евентуалният им първи полет в Кити Хоук, Северна Каролина, разчита на иновациите в контрола на полета и самозадвижването - и двете необходими за самолета да остане на височина, без да се разбие по време на първите си успешни полетни тестове, на 17 декември 1903 г.`,
+                "howUsed": `Самолетът може да транспортира много хора и товари на големи разстояния за кратко време.`
             },
             "en": {
                 "title": `Airplane`,
-                "createdBy": `The Wright brothers—Orville (August 19, 1871 – January 30, 1948) and Wilbur (April 16, 1867 – May 30, 1912)—were two American aviation pioneers generally credited with inventing, building, and flying the world's first successful motor-operated airplane.`,
+                "createdBy": `The Wright brothers—Orville and Wilbur were two American aviation pioneers generally credited with inventing, building, and flying the world's first successful motor-operated airplane.`,
                 "howInvented": `Wilbur and Orville Wright played with a toy rubber-powered flyer as children and flew kites, spurring their inspiration for flight early in life. Their eventual first flight at Kitty Hawk, North Carolina, relied upon innovations in flight control and self-propulsion — both necessary for the aircraft to stay aloft without crashing during its first successful flight tests, on Dec. 17, 1903.`,
-                "howUsed": `The airplane can transport lots of people and cargo over big distances for short time.`
+                "howUsed": `The airplane can transport lots of people and cargo over big distances for a short amount of time.`
             }
 
         }
@@ -329,15 +329,15 @@ var cardText = {
         'photo': `https://www.edn.com/wp-content/uploads/contenteetimes-images-ednmoments-goddard-rocket-launch.jpg`,
         'text': {
             'en': `As a young boy in the late 1890s, Robert Goddard was inspired by H.G. Wells’s The War of the Worlds and the possibilities of space travel. As a middle-aged man in the mid-1920s, he achieved the first test flight of a liquid-fueled rocket, from his aunt’s farm in Auburn, Massachusetts. The rocket flew 12.5 meters (41 feet) in the air.`,
-            'bg': `BG TEXT`
+            'bg': `Като младо момче в края на 90-те години Робърт Годард е вдъхновен от Войната на световете на Х. Г. Уелс и възможностите за космически пътувания. Като мъж на средна възраст в средата на 20-те години на миналия век той постига първия тестов полет на ракета с течно гориво от фермата на леля си в Обърн, Масачузетс. Ракетата прелетява 12,5 метра във въздуха.`
         },
 
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Ракетна техника`,
+                "createdBy": `На 16 март 1926 г. Годар изстрелва първата си ракета с течно гориво. Той изгаря около 20 секунди, преди да излети, стопявайки част от дюзата.`,
+                "howInvented": `Ракетите все още са били проблематични. Годард се връща към идеята, която за първи път разработва през 1914 г. за ракета с течно гориво. Херман Оберт в Германия и Константин Циолковски в Русия са стигнали до едно и също заключение. Работейки независимо - без видими познания за изследванията на другия - те правят подобни разработки в областта на ракетната наука. И трите се считат за бащи на съвременната ракета.`,
+                "howUsed": `Първите ракети са прототипи на истинските ракети, които познаваме сега.`
             },
             "en": {
                 "title": `Rocketry`,
@@ -357,10 +357,10 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Телевизия`,
+                "createdBy": `Изобретението на телевизията е дело на много хора в края на 19 и началото на 20 век.`,
+                "howInvented": `Първите практически предавания на движещи се изображения по радиосистема използват механично въртящи се перфорирани дискове, за да сканират сцена в различаващ се във времето сигнал, който може да бъде реконструиран на приемник обратно в сближаване с оригиналното изображение. Разработени са няколко различни стандарта за добавяне на цвят към предаваните изображения, като различните региони използват технически несъвместими стандарти за сигнал. Телевизионното излъчване се разраства бързо след Втората световна война, превръщайки се в важна масова среда за реклама, пропаганда и забавление.`,
+                "howUsed": `Използва се за разпространение на информация и за забавление.`
             },
             "en": {
                 "title": `TV`,
@@ -376,14 +376,14 @@ var cardText = {
         'photo': `https://1r8nvx3oj5o42h1uno3u4qkw-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/a-brief-history-on-the-invention-of-the-computer-when-was-the-first-computer-really-invented.gif`,
         'text': {
             'en': `The first mechanical computer, created by Charles Babbage in 1822.`,
-            'bg': `BG TEXT`
+            'bg': `Първият механичен компютър е създаден от Чарлз Бабидж през 1822г.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Компютър`,
+                "createdBy": `Първият механичен компютър, създаден от Чарлз Бабидж през 1822 г., всъщност не представлява това, което повечето биха считали за компютър днес.`,
+                "howInvented": `По време на живота си Бабидж е бил обвинен, че се интересува повече от теорията и върховете на иновациите, отколкото всъщност да произвежда таблиците, които правителството му плаща да създава. Това не беше точно несправедливо, тъй като по времето, когато финансирането за двигателя на разликата се изпари, Бабидж излиза с нова идея: Аналитичният двигател. Това е била масивна стъпка отвъд Difference Engine: това е било устройство с общо предназначение, което е можело да изчисли много различни проблеми.`,
+                "howUsed": `Компютърът на Бабидж се използва за изчисления, запис на информация, въвеждане на данни и печат.`
             },
             "en": {
                 "title": `Computer`,
@@ -399,14 +399,14 @@ var cardText = {
         'photo': `https://connecticuthistory.org/wp-content/uploads/sites/6/2011/09/VS-300-e1371603228756.jpg`,
         'text': {
             'en': `The earliest references for vertical flight came from China. Since around 400 BC, Chinese children have played with bamboo flying toys. This bamboo-copter is spun by rolling a stick attached to a rotor. The spinning creates lift, and the toy flies when released. It was not until the early 1480s, when Italian polymath Leonardo da Vinci created a design for a machine that could be described as an "aerial screw", that any recorded advancement was made towards vertical flight. His notes suggested that he built small flying models, but there were no indications for any provision to stop the rotor from making the craft rotate. As scientific knowledge increased and became more accepted, people continued to pursue the idea of vertical flight.`,
-            'bg': `BG TEXT`
+            'bg': `Най-ранните справки за вертикален полет идват от Китай. От около 400 г. пр. Н. Е. Китайските деца са играли с летящи играчки от бамбук. Този бамбуков коптер се завърта чрез навиване на пръчка, прикрепена към ротор. Въртенето създава повдигане и играчката лети, когато се освободи. Едва в началото на 1480-те, когато италианският полимат Леонардо да Винчи създава проект за машина, която може да бъде описана като "въздушен винт", всеки регистриран напредък е направен към вертикален полет. Бележките му подсказват, че той е изграждал малки летящи модели, но не е имало никакви признаци, които да не позволят на ротора да се върти. Тъй като научните знания се увеличават и стават по-приети, хората продължават да следват идеята за вертикален полет.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Хеликоптер`,
+                "createdBy": `Първият хеликоптер е проектиран от Игор Сикорски и е построен от отдела за въздухоплавателни средства Vought-Sikorsky на United Aircraft Corporation, той е първият, който включва един главен дизайн на ротор и опашен ротор. Първият му полет е на 14 септември 1939 г., когато VS-300 предприема полет в Стратфорд, Кънектикът.`,
+                "howInvented": `Като дете Игор Сикорски се интересува от естествените науки и започва да експериментира да прави прототипи на хеликоптери.`,
+                "howUsed": `Хеликоптерът се използва за проучване на райони и превоз на хора над земята.`
             },
             "en": {
                 "title": `Helicopter`,
@@ -422,14 +422,14 @@ var cardText = {
         'photo': `https://images.computerhistory.org/revonline/images/102677103p-03-01.jpg?w=600`,
         'text': {
             'en': `On December 23 Bell Labs engineers John Bardeen, Walter Brattain, and William Shockley gave the first public demonstration of the transistor, an electrical component that could control, amplify, and generate current. The transistor was much smaller and used less power than vacuum tubes and ushered in an era of cheap small electronic devices.`,
-            'bg': `BG TEXT`
+            'bg': `На 23 декември инженерите на Bell Labs Джон Бардин, Уолтър Братън и Уилям Шокли дават първата публична демонстрация на транзистора, електрически компонент, който може да контролира, усилва и генерира ток. Транзисторът е бил много по-малък и е използвал по-малко мощност от вакуумните тръби и се въвежда в епоха на евтини малки електронни устройства.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Транзистор`,
+                "createdBy": `Транзисторът е успешно демонстриран на 23 декември 1947 г. в Bell Laboratories в Мъри Хил, Ню Джърси. Той е изобретен от Уилям Шокли, Джон Бардин и Уолтър Братън.`,
+                "howInvented": `Първоначално транзисторите са произведени с помощта на германий. Това е бил стандартът за първото десетилетие на производството на транзистори. Транзисторите на базата на силиций, които сме свикнали да виждаме днес, са били приети, защото Германий се разгражда при 180 градуса F.`,
+                "howUsed": `Транзисторът е полупроводниково устройство, използвано за усилване или превключване на електронни сигнали и електрическа енергия. Той е съставен от полупроводников материал, обикновено с поне три извода за свързване към външна верига. Напрежение или ток, приложен към една двойка на клемите на транзистора, управлява тока през друга двойка клеми.`
             },
             "en": {
                 "title": `Transistor`,

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: dimgrey;
+    background-color: lightblue;
 }
 
 .nav-animation {
@@ -67,7 +67,6 @@ nav .nav-links :hover {
 }
 
 .our-team {
-    font-family: "Montserrat", sans-serif;
     overflow: hidden;
     text-align: center;
     padding: 60px;
@@ -88,7 +87,7 @@ nav .nav-links :hover {
     display: block;
     margin: auto;
     margin-bottom: 10px;
-    width: 140px;
+    width: 340px;
     height: 3px;
     background-color: black;
 }

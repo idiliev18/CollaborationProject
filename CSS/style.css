@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(230, 230, 230);
+    background-color: lightblue;
     color: rgb(50, 50, 50);
     font-family: 'Open Sans', sans-serif;
     font-size: 112.5%;
@@ -350,7 +350,7 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #014e78;
     color: white;
     cursor: pointer;
     padding: 15px;
