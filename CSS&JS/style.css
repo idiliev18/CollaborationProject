@@ -323,9 +323,18 @@ body {
 }
 
 .translate-button.translate-bg {
-    background-image: url("images/bg.svg");
+    background-image: url("images/bg.png");
 }
 
 .translate-button.translate-en {
-    background-image: url("images/en.jpg");
+    background-image: url("images/UK.png");
+   
+}
+.countryFlag{
+    width: 100px;
+}
+
+#timeline
+{
+    scroll-behavior: smooth;
 }

@@ -15,7 +15,12 @@ include("DataBase/dbConnect.php");
         <link href="https://fonts.googleapis.com/css?family=Bangers|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bangers|Noto+Sans+TC|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="CSS&JS/contact.css">
+        <link rel="stylesheet" type="text/css" href="CSS&JS/nav.css">
         <script defer src="CSS&JS/site.js"></script>
         <script defer src="CSS&JS/nav.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -37,34 +42,38 @@ include("DataBase/dbConnect.php");
             </div>
         </nav>
 
-        <form action="PHP/contactProcess.php" method="POST">
-            <div class="pedal">
-                <div class="row">
-                    <h1 id="h1" data-lang="contactus">Contact us</h1>
-                </div>
-                <div class="row input-container">
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <input type="text" name="username" placeholder="Name" required />
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="styled-input">
-                            <input type="email" name="email" placeholder="Email" required />
 
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="styled-input wide">
-                            <input type="text" name="message" placeholder="Message" required />
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <input type="submit" name="submit">
-                    </div>
-                </div>
-            </div>
-        </form>
+        <div class="container jumbotron mt-5">
+
+            <form action="#" method="POST" class="was-validated">
+
+              <div class="form-group">
+                <label for="usr">Name:</label>
+                <input type="text" class="form-control" name="username" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="pwd">Email:</label>
+                <input type="email" class="form-control" name="email" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="msg">Message:</label>
+                <input type="text" class="form-control" name="email" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please enter a message.</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+          
+
     </body>
 
     </html>

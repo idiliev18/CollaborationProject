@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
 }
@@ -6,11 +6,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(50, 50, 50);
+    /* background-color: rgb(50, 50, 50); */
     font-family: 'Open Sans', sans-serif;
     font-size: 112.5%;
     line-height: 1.6em;
     overflow-x: hidden;
+    
 }
 
 .nav-animation {
@@ -200,4 +201,4 @@ color: #f00;
 font-style: normal;
 
 }
-*/
+*/ */

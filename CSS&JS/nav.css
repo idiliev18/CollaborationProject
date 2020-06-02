@@ -9,11 +9,12 @@
 }
 
 .introduction .nav-animation {
-    background-color: #058ceb;
+    background-color: #014e78;
     border: none;
     position: fixed;
     width: 100%;
     min-height: 7vh;
+ 
 }
 
 .introduction nav {
@@ -28,7 +29,9 @@
     border-bottom: 1.5px solid lightblue;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
+    background-color: #014e78;
+    opacity: 0.9;
 }
 
 .introduction nav #logo {
@@ -54,10 +57,11 @@
 .introduction nav .nav-links a {
     color: lightblue;
     text-decoration: none;
+    
 }
 
 .introduction nav .nav-links :hover {
-    opacity: 0.1;
+    opacity: 0.8;
 }
 
 .countryFlag {

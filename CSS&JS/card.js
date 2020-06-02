@@ -6,9 +6,7 @@ var cardText = {
         'photo': `img/compass.jpg`,
 
         'text': {
-            'en': `The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044. It describes how soldiers found their way by using a fish-shaped piece of magnetized iron floating in a bowl of water when the sky was too cloudy
-            to see the stars. The compass was invented more than 2000 years ago. The first compasses were made of lodestone, which is a naturally magnetized stone of iron, in Han dynasty China. Later compasses were made of iron needles, magnetized
-            by striking them with a lodestone.`,
+            'en': `The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044. It describes how soldiers found their way by using a fish-shaped piece of magnetized iron floating in a bowl of water when the sky was too cloudy to see the stars. The compass was invented more than 2000 years ago. The first compasses were made of lodestone, which is a naturally magnetized stone of iron, in Han dynasty China. Later compasses were made of iron needles, magnetized by striking them with a lodestone.`,
             'bg': `Първото окончателно споменаване на магнитен компас датира от китайска книга, завършена през 1044 г. В него се описва как войниците са намерили своя път, като са използвали парче магнетизирано желязо във формата на риба, плуващо в купа с вода, когато небето е било твърде мътно, за да видят звездите , Компасът е изобретен преди повече от 2000 години. Първите компаси са направени от ломестон, който е естествено намагнетизиран камък от желязо, в династия Хан в Китай. По-късните компаси бяха направени от железни игли, намагнетизирани, като ги удряха с локум.`
         },
         "details": {
@@ -22,10 +20,7 @@ var cardText = {
                 "title": `The first magnetic compass`,
                 "createdBy": `The first magnetic compass was invented in China.`,
                 "howInvented": `The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044.`,
-                "howUsed": `At first, it was used for divination, fortune-telling and geomancy, for finding precious gems
-                and in Feng Shui but in time people discovered that it can be used for navigation, also was used for orientation and
-                navigation during the Chinese Song Dynasty.
-                `
+                "howUsed": `At first, it was used for divination, fortune-telling and geomancy, for finding precious gems and in Feng Shui but in time people discovered that it can be used for navigation, also was used for orientation and navigation during the Chinese Song Dynasty.`
             }
 
         }
@@ -36,32 +31,20 @@ var cardText = {
         'photo': `https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Salisbury_Cathedral%2C_medieval_clock.JPG/675px-Salisbury_Cathedral%2C_medieval_clock.JPG`,
         'text': {
             'en': `The Salisbury Cathedral clock is a large iron-framed tower clock without a dial, in Salisbury Cathedral, England. Supposedly dating from about 1386, it is a well-preserved example of the earliest type of mechanical clock, called verge and foliot clocks, and is said to be the oldest working clock in the world.`,
-            'bg': ``
+            'bg': `Часовникът на катедралата Солсбъри е голям часовник с кула с желязна рамка без циферблат в катедралата в Солсбъри, Англия. Предполага се, че датира от около 1386 г., той е добре запазен пример за най-ранния тип механичен часовник и е най-старият работещ часовник в света.`
         },
         "details": {
             "bg": {
                 "title": `Механичен часовник`,
-                "createdBy": `Gurlio`,
-                "howInvented": `with timer`,
-                "howUsed": `for takova time`
+                "createdBy": `Часовникът на катедралата Солсбъри е голям часовник с кула с желязна рамка без циферблат в катедралата в Солсбъри, Англия. Предполага се, че датира от около 1386 г., той е добре запазен пример за най-ранния тип механичен часовник и е най-старият работещ часовник в света.`,
+                "howInvented": `Височината на рамката е 1,24 м, ширината 1,29 м, а дълбочината 1,06 м. Голямото колело се завърта веднъж на 3600 секунди (1 час), така че колелото се завърта веднъж на 360 секунди. По този начин един размах отнема 8 секунди, или 4 секунди за половин замах. Тоест колелото с намотателната цев се завърта обратно на часовниковата стрелка, а другото колело се завърта по посока на часовниковата стрелка.`,
+                "howUsed": `Механичният часовник се използваше в катедралите, за да отбележи времето, когато ще се провеждат събития. И сега всеки го използва, за да вижда времето.`
             },
             "en": {
                 "title": `Mechanical Clock`,
-                "createdBy": `The Salisbury Cathedral clock is a large iron-framed tower clock without a dial, in Salisbury Cathedral, England. 
-                Supposedly dating from about 1386, it is a well-preserved example of the earliest type of mechanical clock, called verge and foliot 
-                clocks, and is said to be the oldest working clock in the world.`,
-                "howInvented": `The frame height is 1.24m, the width 1.29m, and the depth 1.06m.Great wheel to verge escape wheel: 100 to 10, verge escape wheel 45 teeth.
-
-                The Great wheel turns once in 3600 seconds (1 hour), so the verge escape wheel turns once in 360 seconds. One full foliot swing thus takes 8 seconds, or 4 seconds per half swing.
-                
-                Seen from the going train side, the great wheel with the winding barrel turns anti-clockwise, and the escapement wheel turns clockwise.`,
-                "howUsed": `The mechanical clock was used in cathedrals to mark the time when services would be held. 
-                    The clock has 64 teeth driving an 8 pin birdcage; second (hoop) wheel 64 teeth driving an 8 leaf pinion on the fly. 
-                    So each turn of the great wheel makes the fly turn 64 times, or 8 turns of the fly per strike of the clock 
-                    (as the great wheel has 8 striking pins).Great wheel to count wheel: 8 tooth pinion to internal 78 teeth on count wheel, 
-                    with 8 striking pins on the great wheel. This directly corresponds with the 78 strikes the clock will make in 12 hours
-                    (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 = 78). The count wheel turns once every 12 hours, so the great wheel turns 
-                    9.75 times, operating the strike lever thus 9.75 × 8 = 78 times.`
+                "createdBy": `The Salisbury Cathedral clock is a large iron-framed tower clock without a dial, in Salisbury Cathedral, England. Supposedly dating from about 1386, it is a well-preserved example of the earliest type of mechanical clock and is said to be the oldest working clock in the world.`,
+                "howInvented": `The frame height is 1.24m, the width 1.29m, and the depth 1.06m. The Great wheel turns once in 3600 seconds (1 hour), so the verge escape wheel turns once in 360 seconds. One full foliot swing thus takes 8 seconds, or 4 seconds per half swing. Seen from the going train side, the great wheel with the winding barrel turns anti-clockwise, and the escapement wheel turns clockwise.`,
+                "howUsed": `The mechanical clock was used in cathedrals to mark the time when events would be held. And now it is used by everyone to see the time.`
             }
 
         }
@@ -71,29 +54,20 @@ var cardText = {
         'photo': `https://dekatrias.files.wordpress.com/2012/12/first-printing-press-rusnhz.jpg`,
         'text': {
             'en': `Johannes Gutenberg completed the printing of the Bible, which was the first book printed in the West using movable type. Gutenberg’s printing press led to an information explosion in Europe. Printing is a process for mass reproducing text and images using a master form or template. The earliest non-paper products involving printing include cylinder seals. The earliest known form of printing as applied to paper was woodblock printing. Later developments in printing technology include the movable type invented and the printing press invented by Johannes Gutenberg in the 15th century.`,
-            'bg': `Йоханес Гутенберг завърши отпечатването на Библията, която беше първата книга, отпечатана на Запад с помощта на подвижен тип. Печатната машина на Гутенберг доведе до информационен експлозия в Европа. Печатът е процес за масово възпроизвеждане на текст и изображения с помощта на главна форма или шаблон. Най-ранните нехартиални продукти, включващи печат, включват цилиндрични пломби. Най-ранната известна форма на печат, приложена върху хартията, беше печатът върху дървен материал. По-късните разработки в технологията за печат включват изобретения подвижен тип и печатарската машина, изобретена от Йоханес Гутенберг през 15 век.`
+            'bg': `Йоханес Гутенберг завършва отпечатването на Библията, която е била първата книга, отпечатана на Запад с помощта на подвижен тип. Печатната машина на Гутенберг довежда до информационна експлозия в Европа. Печатът е процес за масово възпроизвеждане на текст и изображения с помощта на главна форма или шаблон. Най-ранните нехартийни продукти, включващи печат, включват цилиндрични пломби. Най-ранната известна форма на печат, приложена върху хартия, е била печатът върху дървен материал. По-късните разработки в технологията за печат включват изобретения от подвижен тип и печатарската машина, изобретена от Йоханес Гутенберг през 15 век.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Първата модерна печатница, използваща подвижен метал`,
+                "createdBy": `Първата печатница е изобретена от Йоханес Гутенберг през 1450 г. в Германия.`,
+                "howInvented": `Преди е работил като професионален златар и за това Гутенберг умело използва знанията за металите, които е научил като занаятчия. За да създаде тези видове олово, Гутенберг използва това, което се счита за едно от най-гениалните му изобретения, специална матрица, позволяваща бързото изработване на нов тип еднообразен шаблон.`,
+                "howUsed": `По модел на съществуващите винтови преси, една ренесансова печатница може да произвежда до 3600 страници на работен ден, в сравнение с 40 чрез ръчен печат и с това стартира печатническата революция.`
             },
             "en": {
                 "title": `The first modern printing press using movable metal type`,
                 "createdBy": `The first printing press was invented by Johannes Gutenberg in 1450 in Germany.`,
-                "howInvented": `Having previously worked as a professional goldsmith, Gutenberg made skillful use of the knowledge
-                 of metals he had learned as a craftsman. He was the first to make type from an alloy of lead, tin, and antimony, 
-                 which was critical for producing durable type that produced high-quality printed books and proved to be much better 
-                 suited for printing than all other known materials. To create these lead types, Gutenberg used what is considered
-                  one of his most ingenious inventions, a special matrix enabling the quick and precise molding of new type blocks
-                   from a uniform template. His type case is estimated to have contained around 290 separate letter boxes, 
-                   most of which were required for special characters, ligatures, punctuation marks, and so forth.`,
-
-                "howUsed": `Modelled on the design of existing screw presses, a single Renaissance printing press could produce
-                 up to 3,600 pages per workday, compared to forty by hand-printing and a few by hand-copying and that started the
-                 Printing Revolution.`
+                "howInvented": `Having previously worked as a professional goldsmith, Gutenberg made skillful use of the knowledge of metals he had learned as a craftsman. To create these lead types, Gutenberg used what is consideredone of his most ingenious inventions, a special matrix enabling the quick molding of new type a uniform template.`,
+                "howUsed": `Modelled on the design of existing screw presses, a single Renaissance printing press could produce up to 3,600 pages per workday, compared to 40 by hand-printing and that started the Printing Revolution.`
             }
 
         }
@@ -107,8 +81,8 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
+                "title": `Парен двигател`,
+                "createdBy": `Джеймс Уат разработва дизайна `,
                 "howInvented": ``,
                 "howUsed": ``
             },
@@ -739,8 +713,8 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
+                "title": `Квантов компютър`,
+                "createdBy": `През 2019 IBM представи първият си търговски квантов компютър, IBM Q System One, проектиран от базираният във Великобритания Map Project Office и Universal Design Studio и прозиведен Goppion`,
                 "howInvented": ``,
                 "howUsed": ``
             },

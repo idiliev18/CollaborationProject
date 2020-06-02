@@ -1,4 +1,14 @@
-.nav-animation {
+.introduction {
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+.introduction .nav-animation {
     background-color: #058ceb;
     border: none;
     position: fixed;
@@ -38,7 +48,7 @@ nav .nav-links {
     -webkit-box-pack: distribute;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    flex-basis: 60%;
+    flex-basis: 90%;
 }
 
 nav .nav-links a {
