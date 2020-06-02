@@ -2,7 +2,7 @@
     max-width: 100%;
     font-family: "Montserrat", sans-serif;
     min-height: 100vh;
-    background-image: url("../img/background.jpg");
+    /*background-image: url("../img/backg.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
@@ -65,4 +65,27 @@
 .countryFlag {
     width: 30px;
     height: 20px;
+}
+
+.logo {
+    padding-top: 19%;
+    font-size: 112px;
+    font-family: Ink Free;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background: #99cee0;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
 }

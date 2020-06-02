@@ -121,21 +121,19 @@ var cardText = {
         'photo': `https://katiesphotographygcse.weebly.com/uploads/1/1/1/5/111508185/published/first-camera-ever.jpg?1510580107 `,
         'text': {
             'en': `In the early 1820s, Nicéphore Niépce became interested in using a light-sensitive solution to make copies of lithographs onto glass, zinc, and finally a pewter plate. He then had the great idea to use his solution to make a copy of an image in a camera obscura (a room or box with a small hole in one end through which an image of the outside is projected). In 1826 or 1827, he made an eight-hour-long exposure of the courtyard of his house, the first known photograph.`,
-            'bg': `В началото на 1820 г. Никефор Нипсе се заинтересува от използването на светлочувствително решение, за да направи копия на литографиите върху стъкло, цинк и накрая плоча за олово. Тогава той имаше идеята да използва своето решение, за да направи копие на изображение в обскура на камера (стая или кутия с малка дупка в единия край, през която се прожектира изображение отвън). През 1826 или 1827 г. той прави осемчасово излагане на двора на къщата си - първата известна снимка.`
+            'bg': `В началото на 1820 г. Никефор Нипсе започва да се интересува от използването на светлочувствително решение, за да направи копия на литографиите върху стъкло, цинк и накрая плоча за олово. Тогава той имаше идеята да използва своето решение, за да направи копие на изображение в обскура на камера. През 1826 или 1827 г. той прави осемчасово излагане на двора на къщата си - първата известна снимка.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Фотография`,
+                "createdBy": `Никефор Нипсе, е френски изобретател, обикновено кредитиран като изобретател на фотографията.`,
+                "howInvented": `В началото на 1820 г. Никефор Нипсе започва да се интересува от използването на светлочувствително решение, за да направи копия на литографиите върху стъкло, цинк и накрая плоча за олово. Тогава той имаше идеята да използва своето решение, за да направи копие на изображение в обскура на камера.`,
+                "howUsed": `Фотографията помага на човечеството да улавя моменти, хора, природата и да ги запази за бъдещето.`
             },
             "en": {
                 "title": `Photography`,
                 "createdBy": `Nicéphore Niépce, was a French inventor, usually credited as the inventor of photography.`,
-                "howInvented": `In the early 1820s, Nicéphore Niépce became interested in using a light-sensitive solution to make 
-                copies of lithographs onto glass, zinc, and finally a pewter plate. He then had the great idea to use his solution
-                to make a copy of an image in a camera obscur.`,
+                "howInvented": `In the early 1820s, Nicéphore Niépce became interested in using a light-sensitive solution to make copies of lithographs onto glass, zinc, and finally a pewter plate. He then had the great idea to use his solution to make a copy of an image in a camera obscur.`,
                 "howUsed": `The photography helped humanity to capture moments, people, nature and save them for the future.`
             }
 
@@ -146,18 +144,18 @@ var cardText = {
         'photo': `https://i.pinimg.com/736x/93/23/07/9323079dc7025c3024f7be35859ca48b.jpg`,
         'text': {
             'en': `Samuel Morse was a successful painter who became interested in the possibility of an electric telegraph in the 1830s. He patented a prototype in 1837. In 1844 he sent the first message over the first long-distance telegraph line, which stretched between Washington, D.C., and Baltimore. The message: “What hath God wrought.`,
-            'bg': `Самюъл Морз е бил успешен художник, който се е интересувал от възможността за електрически телеграф през 1830-те. Той патентова прототип през 1837 г. През 1844 г. той изпраща първото съобщение през първата телеграфна линия на дълги разстояния, която се простира между Вашингтон, D.C. и Балтимор. Посланието: „Какво направи Бог`
+            'bg': `Самюъл Морз е бил успешен художник, който се е интересувал от възможността за създаването на електрически телеграф през 1830-те. Той патентова прототип през 1837 г. През 1844 г. той изпраща първото съобщение през първата телеграфна линия на дълги разстояния, която се простира между Вашингтон, D.C. и Балтимор. Посланието: „Какво направи Бог`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Телеграф`,
+                "createdBy": `Клод Чапе е френски инженер и духовник, който преобразява стара идея в реалност, измисляйки семафорния визуален телеграф.`,
+                "howInvented": `Телеграфът е измислен, така че две страни могат да комуникират криптирани.`,
+                "howUsed": `Телеграфът революционизира комуникацията на дълги разстояния. Той работи, като предава електрически сигнали по проводник, положен между станциите.`
             },
             "en": {
                 "title": `Telegraph`,
-                "createdBy": `Claude Chappe, French engineer and cleric who converted an old idea into a reality by inventing the semaphore visual telegraph.`,
+                "createdBy": `Claude Chappe is a French engineer and cleric who converted an old idea into a reality by inventing the semaphore visual telegraph.`,
                 "howInvented": `The telegraph was invented, so two sides can communicate encrypted.`,
                 "howUsed": `The telegraph revolutionized long-distance communication. It worked by transmitting electrical signals over a wire laid between stations.`
             }
@@ -168,8 +166,7 @@ var cardText = {
     "telephone": {
         'photo': `https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/9335593/AlexisHowes_EvolutionPoster_TelephonePicture1.jpg`,
         'text': {
-            'en': `Once it was possible to send information through a wire in the form of dots and dashes, the next step was actual voice communication. Alexander Graham Bell made the first telephone call, on March 10, 1876, when he asked his assistant Tom Watson to come to him: “Mr Watson—come here—I want to see you.”
-            `,
+            'en': `Once it was possible to send information through a wire in the form of dots and dashes, the next step was actual voice communication. Alexander Graham Bell made the first telephone call, on March 10, 1876, when he asked his assistant Tom Watson to come to him: “Mr Watson—come here—I want to see you.”`,
             'bg': `След като беше възможно да се изпраща информация чрез тел под формата на точки и тирета, следващата стъпка беше действителната гласова комуникация. Александър Греъм Бел направи първия телефонен разговор на 10 март 1876 г., когато помоли своя помощник Том Уотсън да дойде при него: „Г-н Уотсън - елате тук, искам да ви видя“.`
         },
         "details": {

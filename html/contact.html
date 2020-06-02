@@ -26,9 +26,11 @@ include("DataBase/dbConnect.php");
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script defer src="../js/translation.js"></script>
 
+
     </head>
 
     <body>
+
         <div class="introduction">
             <nav>
                 <div id="logo">
@@ -42,10 +44,11 @@ include("DataBase/dbConnect.php");
                     <button class="translate-button translate-en" data-lng="en"><img src="../img/en.svg" alt="en" class="countryFlag"></button>
                 </div>
             </nav>
+
             <div class="fronttext">
                 <div class="container jumbotron mt-5">
                     <h1 style="text-align:center">Contact Us</h1>
-                    <form action="#" method="POST" class="was-validated">
+                    <form action="../PHP/contactProcess.php" method="POST" class="was-validated">
 
                         <div class="form-group">
                             <label for="usr">Name:</label>

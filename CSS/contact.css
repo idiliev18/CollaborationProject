@@ -11,6 +11,7 @@ body {
     font-size: 112.5%;
     line-height: 1.6em;
     overflow-x: hidden;
+    background-image: url("../img/backg.jpg");
 }
 
 .nav-animation {
