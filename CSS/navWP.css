@@ -1,40 +1,20 @@
 .introduction {
     max-width: 100%;
     font-family: "Montserrat", sans-serif;
-    min-height: 100vh;
-    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
 }
 
 .introduction .nav-animation {
-    background-color: #014e78;
+    background-color: #058ceb;
     border: none;
     position: fixed;
     width: 100%;
     min-height: 7vh;
- 
 }
 
-.introduction nav {
-    width: 100%;
-    z-index: 10;
-    -webkit-transition: all 0.10s;
-    transition: all 0.5s;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 7vh;
-    border-bottom: 1.5px solid lightblue;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #014e78;
-    opacity: 0.9;
-}
-
-.introduction nav #logo {
+nav #logo {
     color: lightblue;
     /* font-family: 'Courgette', cursive;*/
     padding: 0px 25px;
@@ -44,24 +24,38 @@
     display: flex;
 }
 
-.introduction nav .nav-links {
+nav {
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.10s;
+    transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 7vh;
+    border-bottom: 1.5px solid #058ceb;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+nav .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: distribute;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    flex-basis: 60%;
+    flex-basis: 90%;
 }
 
-.introduction nav .nav-links a {
-    color: lightblue;
+nav .nav-links a {
+    color: black;
     text-decoration: none;
-    
 }
 
-.introduction nav .nav-links :hover {
-    opacity: 0.8;
+nav .nav-links :hover {
+    opacity: 0.1;
 }
 
 .countryFlag {

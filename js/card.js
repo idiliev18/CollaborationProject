@@ -1,5 +1,3 @@
-var langId = "en";
-
 var cardText = {
 
     "compass": {
@@ -61,7 +59,7 @@ var cardText = {
                 "title": `Първата модерна печатница, използваща подвижен метал`,
                 "createdBy": `Първата печатница е изобретена от Йоханес Гутенберг през 1450 г. в Германия.`,
                 "howInvented": `Преди е работил като професионален златар и за това Гутенберг умело използва знанията за металите, които е научил като занаятчия. За да създаде тези видове олово, Гутенберг използва това, което се счита за едно от най-гениалните му изобретения, специална матрица, позволяваща бързото изработване на нов тип еднообразен шаблон.`,
-                "howUsed": `По модел на съществуващите винтови преси, една ренесансова печатница може да произвежда до 3600 страници на работен ден, в сравнение с 40 чрез ръчен печат и с това стартира печатническата революция.`
+                "howUsed": `По модел на съществуващите винтови преси, една ренесансова печатница може да произвежда до 3600 страници на работен ден, в сравнение с 40 чрез ръчно печатане и с това стартира печатническата революция.`
             },
             "en": {
                 "title": `The first modern printing press using movable metal type`,
@@ -77,19 +75,19 @@ var cardText = {
         'photo': `https://www.abc.net.au/cm/rimage/11566802-16x9-large.jpg?v=3`,
         'text': {
             'en': `James Watt improved the Newcomen steam engine by adding a condenser that turned the steam back into liquid water. This condenser was separate from the cylinder that moved the piston, which meant that the engine was much more efficient. The steam engine became one of the most important inventions of the Industrial Revolution. The first recorded steam-powered "engine" was the aeolipile. In the following centuries, the few steam-powered "engines" known were essentially experimental devices used by inventors to demonstrate the properties of steam.`,
-            'bg': `Джеймс Уат подобри парната машина Newcomen, като добави кондензатор, който превърна парата обратно в течна вода. Този кондензатор беше отделен от цилиндъра, който движеше буталото, което означаваше, че двигателят е много по-ефективен. Парната машина стана едно от най-важните изобретения на Индустриалната революция. Първият записан "двигател" на пара е бил аеопилелът. В следващите векове малкото известни "парни" двигатели, които са били известни, са по същество експериментални устройства, използвани от изобретателите за демонстриране на свойствата на парата.`
+            'bg': `Джеймс Уат подобрява парната машина Newcomen, като добавя кондензатор, който превръща парата обратно в течна вода. Този кондензатор е бил отделен от цилиндъра, който движи буталото, което означава, че двигателят е много по-ефективен. Парната машина става едно от най-важните изобретения на Индустриалната революция. Първият записан "двигател" на пара е бил аеопилелът. В следващите векове малкото известни "парни" двигатели, които са били известни, са по същество експериментални устройства, използвани от изобретателите за демонстриране на свойствата на парата.`
         },
         "details": {
             "bg": {
                 "title": `Парен двигател`,
-                "createdBy": `Джеймс Уат разработва дизайна `,
-                "howInvented": ``,
-                "howUsed": ``
+                "createdBy": `Джеймс Уат разработва дизайна периодично от 1763 до 1775 г. с подкрепата на Матю Бултън.`,
+                "howInvented": `Дизайнът на Уат спестява толкова повече гориво в сравнение с по-ранните проекти, че те са били лицензирани въз основа на количеството гориво, което спестяват. Уат никога не престава да разработва парната машина, въвеждайки две конструкции на цилиндъра и различни системи за излитане на ротационна мощност. Дизайнът на Уат става синоним на парните двигатели и минават много години преди значително нови дизайни да започнат да заменят основния дизайн на Уат.`,
+                "howUsed": `Парната машина се е използвала до 16-ти или 17-ти век. Въпреки това, тя придобива повече известност и става по-актуална в индустриалната революция.`
             },
             "en": {
                 "title": `Steam engine`,
-                "createdBy": `James Watt developed the design sporadically from 1763 to 1775 with support from Matthew Boulton.`,
-                "howInvented": `Watt's design saved so much more fuel compared with earlier designs that they were licensed based on the amount of fuel they would save. Watt never ceased developing the steam engine, introducing double-acting designs (with two cylinders) and various systems for taking off rotary power. Watt's design became synonymous with steam engines, and it was many years before significantly new designs began to replace the basic Watt design.`,
+                "createdBy": `James Watt occasionally developed the design from 1763 to 1775 with support from Matthew Boulton.`,
+                "howInvented": `Watt's design saved so much more fuel compared to earlier designs that they were licensed based on the amount of fuel they would save. Watt never ceased developing the steam engine, introducing two cylinder designs and various systems for taking off rotary power. Watt's design became synonymous with steam engines, and it was many years before significantly new designs began to replace the basic Watt design.`,
                 "howUsed": `The use of the steam engine is traceable to the 16th and 17th centuries. However, it gained more prominence and became more relevant in the industrial revolution.`
             }
 
@@ -99,15 +97,15 @@ var cardText = {
     "steamboat": {
         'photo': `https://live.staticflickr.com/3193/2550322207_64146d55e5_b.jpg`,
         'text': {
-            'en': `Robert Fulton put the steam engine on water. His steamboat that was eventually called the Clermont took 32 hours to go up the Hudson River from New York City to Albany. Sailing ships took four days.Early attempts at powering a boat by steam were made by the French inventor Denis Papin and the English inventor Thomas Newcomen. Papin invented the steam digester (a type of pressure cooker) and experimented with closed cylinders and pistons pushed in by atmospheric pressure, analogous to the pump built by Thomas Savery in England during the same period. Denis Papin proposed applying this steam pump to the operation of a paddlewheel boat and tried to market his idea in Britain.`,
-            'bg': `Робърт Фултън постави парната машина на вода. Неговият параход, който в крайна сметка се нарича Клермон, отне 32 часа, за да се изкачи по река Хъдсън от Ню Йорк до Олбани. Плавателните кораби отнеха четири дни. Ранни опити за захранване на лодка с пара бяха направени от френския изобретател Денис Папин и английския изобретател Томас Нюкомен. Папин изобретява парогенератора (тип тенджера под налягане) и експериментира със затворени цилиндри и бутала, изтласкани от атмосферно налягане, аналогично на помпата, построена от Томас Савери в Англия през същия период. Денис Папин предложи да се приложи тази парна помпа за работа на лодка с лопатка и се опита да пусне на пазара идеята си във Великобритания.`
+            'en': `Robert Fulton put the steam engine on water. His steamboat that was eventually called the Clermont took 32 hours to go up the Hudson River from New York City to Albany. Early attempts at powering a boat by steam were made by the French inventor Denis Papin and the English inventor Thomas Newcomen. Papin invented the steam digester and experimented with closed cylinders and pistons pushed in by atmospheric pressure, analogous to the pump built by Thomas Savery in England during the same period. Denis Papin proposed applying this steam pump to the operation of a paddlewheel boat and tried to market his idea in Britain.`,
+            'bg': `Робърт Фултън поставя парната машина върху вода. Неговият параход, който в крайна сметка се нарича Клермон, му отнема 32 часа, за да се изкачи по река Хъдсън от Ню Йорк до Олбани. Ранни опити за захранване на лодка с пара са направени от френския изобретател Денис Папин и английския изобретател Томас Нюкомен. Папин изобретява парогенератора и експериментира със затворени цилиндри и бутала, изтласкани от атмосферно налягане, аналогично на помпата, построена от Томас Савери в Англия през същия период. Денис Папин предлага да се приложи тази парна помпа за работа на лодка с лопатка и се опитва да пусне на пазара идеята си във Великобритания.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Параход`,
+                "createdBy": `Ранни опити за захранване на лодка с пара са направени от френския изобретател Денис Папин и английския изобретател Томас Нюкомен.`,
+                "howInvented": `Ранен дизайн на парна лодка е описан и патентован от английския лекар Джон Алън през 1729г.`,
+                "howUsed": `Денис Папин предлага да се приложи тази парна помпа за работа на лодка с лопатка и се опитва да пусне на пазара идеята си във Великобритания. Нюкомен е бил в състояние да произвежда механична сила, но произвежда постъпателно движение и е бил много голям и тежък.`,
             },
             "en": {
                 "title": `Steamboat`,
