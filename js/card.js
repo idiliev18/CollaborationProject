@@ -167,19 +167,19 @@ var cardText = {
         'photo': `https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/9335593/AlexisHowes_EvolutionPoster_TelephonePicture1.jpg`,
         'text': {
             'en': `Once it was possible to send information through a wire in the form of dots and dashes, the next step was actual voice communication. Alexander Graham Bell made the first telephone call, on March 10, 1876, when he asked his assistant Tom Watson to come to him: “Mr Watson—come here—I want to see you.”`,
-            'bg': `След като беше възможно да се изпраща информация чрез тел под формата на точки и тирета, следващата стъпка беше действителната гласова комуникация. Александър Греъм Бел направи първия телефонен разговор на 10 март 1876 г., когато помоли своя помощник Том Уотсън да дойде при него: „Г-н Уотсън - елате тук, искам да ви видя“.`
+            'bg': `След като е било възможно да се изпраща информация чрез телефон под формата на точки и тирета, следващата стъпка е била действителната гласова комуникация. Александър Греъм Бел е направил първия телефонен разговор на 10 март 1876 г., когато е помолил своя помощник Том Уотсън да отиде при него.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Телефон`,
+                "createdBy": `Изобретението на телефона е кулминацията на работата, извършена от много хора.`,
+                "howInvented": `Един предшественик на развитието на електромагнитния телефон възниква през 1833 г., когато Карл Фридрих Гаус и Вилхелм Едуард Вебер измислят електромагнитно устройство за предаване на телеграфни сигнали, което спомага за създаването на фундаменталната основа за технологията, която по-късно се използва в подобни телекомуникационни устройства. Изобретението на Гаус и Вебер се смята за първият в света електромагнитен телеграф.`,
+                "howUsed": `Концепцията на телефона датира от телефона на любовника, който е известен от векове.`
             },
             "en": {
                 "title": `Telephone`,
                 "createdBy": `The invention of the telephone was the culmination of work done by many individuals.`,
-                "howInvented": `One precursor to the development of the electromagnetic telephone originated in 1833 when Carl Friedrich Gauss and Wilhelm Eduard Weber invented an electromagnetic device for the transmission of telegraphic signals at the University of Göttingen, in Lower Saxony, helping to create the fundamental basis for the technology that was later used in similar telecommunication devices. Gauss's and Weber's invention is purported to be the world's first electromagnetic telegraph.`,
+                "howInvented": `One precursor to the development of the electromagnetic telephone originated in 1833 when Carl Friedrich Gauss and Wilhelm Eduard Weber invented an electromagnetic device for the transmission of telegraphic signals, helping to create the fundamental basis for the technology that was later used in similar telecommunication devices. Gauss's and Weber's invention is purported to be the world's first electromagnetic telegraph.`,
                 "howUsed": `The concept of the telephone dates back to the string telephone or lover's telephone that has been known for centuries.`
             }
 
@@ -190,14 +190,14 @@ var cardText = {
         'photo': `http://www.crankshift.com/wp-content/uploads/2013/09/otto-engine1-300x209.jpg`,
         'text': {
             'en': `German engineer Nikolaus Otto built an engine that, unlike the steam engine, used the burning of fuel inside the engine to move a piston. This type of engine would later be used to power automobiles. Various scientists and engineers contributed to the development of internal combustion engines. In 1791, John Barber developed the gas turbine. In 1794 Thomas Mead patented a gas engine. Also in 1794, Robert Street patented an internal combustion engine, which was also the first to use liquid fuel, and built an engine around that time.`,
-            'bg': `Германският инженер Николаус Ото построи двигател, който, за разлика от парния двигател, използваше изгарянето на гориво вътре в двигателя, за да движи буталото. Този тип двигатели по-късно ще се използват за захранване на автомобили. Различни учени и инженери допринесоха за развитието на двигатели с вътрешно горене. През 1791 г. Джон Барбър разработва газовата турбина. През 1794 г. Томас Мийд патентова газов двигател. Също през 1794 г. Робърт Стрийт патентова двигател с вътрешно горене, който е и първият, който използва течно гориво, и изгражда двигател около това време.`
+            'bg': `Германският инженер Николаус Ото построява двигател, който, за разлика от парния двигател, използва изгарянето на гориво вътре в двигателя, за да движи буталото. Този тип двигатели по-късно ще се използват за захранване на автомобили. Различни учени и инженери допринасят за развитието на двигатели с вътрешно горене. През 1791 г. Джон Барбър разработва газовата турбина. През 1794 г. Томас Мийд патентова газов двигател. Също през 1794 г. Робърт Стрийт патентова двигател с вътрешно горене, който е и първият, който използва течно гориво, и изгражда двигател около това време.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Двигател с вътрешно горене`,
+                "createdBy": `Двигателят Ото е голям стационарен еднотактов двигател с вътрешно горене, проектиран от Николаус Ото през 1876 г. Това е машина с ниски обороти в минута и се задейства само всеки друг удар поради цикъла на Ото, също проектиран от Ото.`,
+                "howInvented": `Основен теоретичен напредък се случва с публикацията през 1862 г., която описва идеалния работен цикъл на двигател с вътрешно горене. Авторът, френският инженер Алфонс Бю, поставя следните условия, необходими за оптимална ефективност: максимален обем на цилиндъра с минимална охлаждаща повърхност, максимална скорост на разширение, максимално съотношение на разширение и максимално налягане на запаления заряд.`,
+                "howUsed": `Четиритактовият двигател на Ото е бил незабавен успех. Въпреки голямото си тегло и лоша икономия, близо 50 000 двигателя с комбиниран обем от около 200 000 конски сили са продадени за 17 години, последвано от бързото развитие на голямо разнообразие от двигатели от същия тип.`
             },
             "en": {
                 "title": `Internal combustion engine`,
@@ -213,14 +213,14 @@ var cardText = {
         'photo': `https://i.pinimg.com/originals/df/46/d4/df46d4ec211da57b54dff27f7cca52e3.jpg`,
         'text': {
             'en': `After thousands of trials, American inventor Thomas Edison got a carbon-filament light bulb to burn for 13½ hours. Edison and others in his laboratory were also working on an electrical power distribution system to light homes and businesses, and in 1882 the Edison Electric Illuminating Company opened the first power plant.`,
-            'bg': `След хиляди изпитания американският изобретател Томас Едисън получи електрическа крушка с въглеродни нишки, която да изгори 13 часа. Едисън и други в неговата лаборатория също работеха по електроразпределителна система за осветяване на домове и предприятия, а през 1882 г. Edison Electric Illuminating Company откри първата електроцентрала.`
+            'bg': `След хиляди изпитания американският изобретател Томас Едисън получава електрическа крушка с въглеродни нишки, която изгаря за 13 часа. Едисън и други в неговата лаборатория също работят по електроразпределителна система за осветяване на домове и предприятия, а през 1882 г. Edison Electric Illuminating Company открива първата електроцентрала.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Електрическа крушка`,
+                "createdBy": `През 1878 г. Едисон се съсредоточава върху измислянето на безопасна, евтина електрическа светлина, която да замени газовата светлина - предизвикателство, с което учените се справят през последните 50 години.`,
+                "howInvented": `С помощта на изтъкнати финансови поддръжници като J. P. Morgan и семейство Vanderbilt, Едисън създава компанията Edison Electric Light и започва проучвания и разработки. Той направи пробив през октомври 1879 г. с крушка, която използваше платинена нишка, а през лятото на 1880 г. удари върху карбонизиран бамбук като жизнеспособна алтернатива на нажежаемата жичка, която се оказа ключът към дълготрайната и достъпна крушка.`,
+                "howUsed": `Електрическата крушка заменя газовата лампа, защото това е било по-добро решение.`
             },
             "en": {
                 "title": `Electric light`,
@@ -236,19 +236,19 @@ var cardText = {
         'photo': `https://qph.fs.quoracdn.net/main-qimg-b5507dc957c0db6857d9ea114a45cd49-c`,
         'text': {
             'en': `The internal-combustion engine improved, becoming smaller and more efficient. Karl Benz used a one-cylinder engine to power the first modern automobile, a three-wheeled car that he drove around a track. However, the automobile did not make a commercial splash until 1888, when his wife, Bertha, exasperated with Karl’s slow methodical pace, took an automobile without his knowledge on a 64-mile trip to see her mother.`,
-            'bg': `Двигателят с вътрешно горене се подобри, ставайки по-малък и по-ефективен. Карл Бенц използва едноцилиндров двигател, за да захранва първия модерен автомобил, триколесна кола, която обикаля около писта. Автомобилът обаче не направи търговски плясък чак през 1888 г., когато съпругата му Берта, вбесена от бавния методичен темп на Карл, взе кола без негово знание при пътуване на 64 мили, за да види майка си.`
+            'bg': `Двигателят с вътрешно горене се подобрява, ставайки по-малък и по-ефективен. Карл Бенц използва едноцилиндров двигател, за да захранва първия модерен автомобил, триколесна кола, която обикаля около писта. Автомобилът обаче не е направил търговски плясък чак през 1888 г., когато съпругата му Берта, вбесена от бавния методичен темп на Карл, взема кола без негово знание при пътуване на 64 мили, за да види майка си.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Автомобил`,
+                "createdBy": `През 1885 г. Зигфрид Маркъс построява първия си бутален двигател с двигател с горене, последван от четири прогресивно по-усъвършенствани автомобила с горивни двигатели през период от 10 до 15 години, който влияе на по-късните автомобили.`,
+                "howInvented": `Жизненоважно за съвременния автомобил е двигателят с вътрешно горене. Този тип двигател използва експлозивно изгаряне на гориво, за да натиска буталото в цилиндъра. Движението на буталото завърта колянов вал, който е свързан с колелата на автомобила на задвижващ вал.`,
+                "howUsed": `Колата се използва за превоз на хора и товар.`
             },
             "en": {
                 "title": `Automobile`,
-                "createdBy": `In 1885 Siegfried Marcus built his first combustion engine powered pushcart, followed by four progressively more sophisticated combustion-engine cars over a 10-to-15-year span that influenced later cars. `,
-                "howInvented": `Vital to the modern automobile is the internal combustion engine. This type of engine uses an explosive combustion of fuel to push a piston within a cylinder. The piston's movement turns a crankshaft that is connected to the car's wheels of a drive shaft. `,
+                "createdBy": `In 1885 Siegfried Marcus built his first combustion engine powered pushcart, followed by four progressively more sophisticated combustion-engine cars over a 10-to-15-year span that influenced later cars.`,
+                "howInvented": `Vital to the modern automobile is the internal combustion engine. This type of engine uses an explosive combustion of fuel to push a piston within a cylinder. The piston's movement turns a crankshaft that is connected to the car's wheels of a drive shaft.`,
                 "howUsed": `The car is used to transport people and cargo.`
             }
 
@@ -259,14 +259,14 @@ var cardText = {
         'photo': `https://inteng-storage.s3.amazonaws.com/img/iea/3ROa8mq1wv/sizes/radio-first_md.jpg`,
         'text': {
             'en': `Guglielmo Marconi had been experimenting with radio since 1894 and was sending transmissions over longer and longer distances. In 1901 his reported transmission of the Morse code letter S across the Atlantic from Cornwall to Newfoundland excited the world.`,
-            'bg': `BG TEXT`
+            'bg': `Гуглиелмо Маркони експериментира с радио от 1894 г. и изпраща предавания на по-големи и по-големи разстояния. През 1901 г. съобщеното му предаване на кодовата буква Морс S през Атлантическия океан от Корнуол до Нюфаундленд развълнува света.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Радио`,
+                "createdBy": `Радио Гулиелмо Маркони (1874-1937) е бил на 27 години когато той успешно прави първото трансатлантическо радио на 12 декември 1901 година.`,
+                "howInvented": `Маркони създава станция на югоизточния бряг на Ирландия, в Marconi House, през 1901 г. Това трябва да действа като посредническа станция между базата на Marconi в безжичната станция Poldhu в Корнуол, Англия и последваща станция на западното крайбрежие на Ирландия в Клифден в Ко Голуей. Това би осигурило силата, необходима за неговия забележителен експеримент. На 12 декември 1901 г. Маркони успява да изпрати сигнал през Атлантическия океан. Предаването е получено в Сейнт Джонс, Нюфаундленд, на над две хиляди мили от началната му точка в Корнуол. Предаването се състоеше от три щраквания; сигнала на морзовият код за „S“ и ще проправи пътя към първото радио съобщение, което се излъчва дванадесет месеца по-късно, през 1902 г.`,
+                "howUsed": `Основната цел на радиото е да предава информация от едно място на друго чрез намесващите се медии без проводници.`
             },
             "en": {
                 "title": `Radio`,
@@ -282,17 +282,15 @@ var cardText = {
     "x-ray": {
         'photo': `https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/11/04/15/5889633.jpg?w968`,
         'text': {
-            'en': `Before their discovery in 1895, X-rays were just a type of unidentified radiation emanating from experimental discharge tubes. They were noticed by scientists investigating cathode rays produced by such tubes, which are energetic electron beams that were first observed in 1869.
-
-            `,
-            'bg': `BG TEXT`
+            'en': `Before their discovery in 1895, X-rays were just a type of unidentified radiation emanating from experimental discharge tubes. They were noticed by scientists investigating cathode rays produced by such tubes, which are energetic electron beams that were first observed in 1869.`,
+            'bg': `Преди откриването им през 1895 г., рентгеновите лъчи са били просто вид неидентифицирана радиация, излъчвана от експериментални тръби за изхвърляне. Те биват забелязани от учени, които изследват катодните лъчи, произведени от такива тръби, които са енергийни електронни лъчи, които са били наблюдавани за първи път през 1869 г.`
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `Ренгенови лъчи`,
+                "createdBy": `Рентгеновите лъчи са открити през 1895 г. от Вилхелм Конрад Рентген (1845-1923), който е професор в университета във Вюрцбург в Германия.`,
+                "howInvented": `Работейки с катодна лъчева тръба в лабораторията си, Рентген наблюдава флуоресцентно сияние на кристали на маса близо до тръбата си. Тръбата, с която работи Рентген, се състои от стъклена обвивка (крушка) с положителни и отрицателни електроди, капсулирани в нея. Въздухът в тръбата се евакуира и когато се приложи високо напрежение, тръбата произвежда флуоресцентно сияние. Рентген защитава тръбата с тежка черна хартия и открива флуоресцентна светлина в зелен цвят, генерирана от материал, разположен на няколко метра от тръбата.`,
+                "howUsed": `Рентгена се използва в лекарството, като помага на лекарите да открият наранявания на костите и да спасят живота на хората.`
             },
             "en": {
                 "title": `X-ray`,
@@ -662,10 +660,11 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
-                "howUsed": ``
+                "title": `3D Телевизор`,
+                "createdBy": `
+                Стереоскопичната 3D телевизия е демонстрирана за първи път на 10 август 1928 г. от Джон Логи Беърд в помещенията на компанията му в 133 Лонг Акър, Лондон.`,
+                "howInvented": `Стереоскопът е изобретен за първи път от сър Чарлз Уитстоун през 1838 г. Той показва, че когато две снимки се разглеждат стереоскопично, те се комбинират от мозъка, за да се получи 3D възприятие на дълбочина. Стереоскопът е подобрен от Луи Жул Дюбоск, а известната картина на кралица Виктория е показана на Голямото изложение през 1851 г. През 1855 г. е изобретен кинематоскопът. В края на 1890 г. британският пионер на филма Уилям Фриз-Грийн подаде патент за 3D филмов процес. На 10 юни 1915 г. бившият главен режисьор Edison Studios Edwin S. Porter и William E. Waddell представят тестове в червено-зелен анаглиф пред публика в театъра Astor в Ню Йорк и през 1922 г. първият публичен 3D филм „Силата на любовта“ е Показва.`,
+                "howUsed": `Първият 3D телевизор е произведен през 1935, а стереоскопичните 3D фотоапарати за лична употреба вече са станали доста често срещани от Втората световна война. Много американски филми бяха произведени за театрално издаие в Сащ през 50-те години на миналият век, точно когато телвизията става популярна.`
             },
             "en": {
                 "title": `3D televesion`,
@@ -685,9 +684,9 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
+                "title": `Изкусвен интелект`,
+                "createdBy": `Облстта на изледванията на изкуственият интилект е онсвана на семинар, проведен в кампуса на колежа в Дартмут в Ню Хемпшир Сащ, през лятото на 1956 година,`,
+                "howInvented": `Исторрията на изкуствения интелект започва от древностт, с митове, истории и слухове за изкуствени същества, надарени с интелигентност или съзнание от добри майстори. Основите на свъременния изкуствен интелекст биват поставени от класическите филосифи, които се опитват да опишат процеса на човешкото мислене като механична манипулация на символите. Тази работа завършва с изобретяването на програмируемия цифров компютър през 40-те години на миналия век, машина базирана на абстркната същност на мематическите разсъждени. Това утройстов и идеите зад него вдъгхновяват много учени да започнат сериозно да обсъждат възможността за изграждане на електронен мозък.`,
                 "howUsed": ``
             },
             "en": {
@@ -710,13 +709,13 @@ var cardText = {
             "bg": {
                 "title": `Квантов компютър`,
                 "createdBy": `През 2019 IBM представи първият си търговски квантов компютър, IBM Q System One, проектиран от базираният във Великобритания Map Project Office и Universal Design Studio и прозиведен Goppion`,
-                "howInvented": ``,
-                "howUsed": ``
+                "howInvented": `Неизвестно`,
+                "howUsed": `Има няколко вида модели на квантовите компютри, вкючително модела на квантовата верига, машната за квантово Тюринг, адибатен квантов компютър и различни квантови клетъчни автомати. Най-щироко изполваният модел е квантовата схема. Квантовите схеми са основават на квантовият бит, което е донякъде аналогично на бита в класическото изчисление.`
             },
             "en": {
                 "title": `Quantum Computer`,
                 "createdBy": `In 2019 IBM unveiled its first commercial quantum computer, the IBM Q System One, designed by UK-based Map Project Office and Universal Design Studio and manufactured by Goppion.`,
-                "howInvented": ``,
+                "howInvented": `Unknown`,
                 "howUsed": `There are several models of quantum computing, including the quantum circuit model, quantum Turing machine, adiabatic quantum computer, one-way quantum computer, and various quantum cellular automata. The most widely used model is the quantum circuit. Quantum circuits are based on the quantum bit, or "qubit", which is somewhat analogous to the bit in classical computation.`
             }
 

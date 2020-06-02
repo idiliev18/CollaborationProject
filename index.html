@@ -21,12 +21,18 @@
     <title>Project</title>
 </head>
 
-<body style="background-color: #4F5E80;">
+<body style="background-color:lightblue;">
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div class="introduction">
         <nav>
+
             <div id="logo">
-                <h1>J&H</h1>
+                <h1 id="toppage">J&H</h1>
             </div>
+
             <div class="nav-links">
                 <a href="html/mission.html" data-lang="nav-goal">Goal</a>
                 <a href="html/about.html" data-lang="nav-about">About us</a>
@@ -35,19 +41,22 @@
                 <button class="translate-button translate-en" data-lng="en"><img src="img/en.svg" alt="en" class="countryFlag"></button>
             </div>
         </nav>
+
         <div class="logo">
             <p>Judge & Homework</p>
         </div>
 
-        <div class="button" align="center">
-            <a href="#Info" class="InfoButton" rel="nofollow">
-                <span data-lang="">Повече информация</span>
-            </a>
+        <div class="actions-buttons">
+            <div class="button" class="button_cont" align="center">
+                <a href="#timeline" class="InfoButton" rel="nofollow">
+                    <span>Timeline</span>
+                </a>
+            </div>
         </div>
     </div>
 
+    <hr id="timeline" style="height: 4px; background-color:black;"></hr>
     <!-- The Timeline -->
-
     <ul class="timeline">
 
         <!-- Item 1 -->

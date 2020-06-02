@@ -1,30 +1,12 @@
-.introduction {
-    max-width: 100%;
-    font-family: "Montserrat", sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: screen;
-}
-
 .introduction .nav-animation {
-    background-color: #058ceb;
+    background-color: #014e78;
     border: none;
     position: fixed;
     width: 100%;
     min-height: 7vh;
 }
 
-nav #logo {
-    color: lightblue;
-    /* font-family: 'Courgette', cursive;*/
-    padding: 0px 25px;
-    flex-basis: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-nav {
+.introduction nav {
     width: 100%;
     z-index: 10;
     -webkit-transition: all 0.10s;
@@ -32,33 +14,108 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 7vh;
-    border-bottom: 1.5px solid #058ceb;
+    min-height: 6vh;
+    border-bottom: 1.5px solid lightblue;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: #014e78;
+    opacity: 0.9;
 }
 
-nav .nav-links {
+.introduction nav #logo {
+    color: lightblue;
+    font-family: 'Courgette', cursive;
+    padding: 0px 25px;
+    flex-basis: 55%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.introduction nav .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: distribute;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    flex-basis: 90%;
+    flex-basis: 70%;
 }
 
-nav .nav-links a {
-    color: black;
+.introduction nav .nav-links a {
+    color: lightblue;
     text-decoration: none;
 }
 
-nav .nav-links :hover {
-    opacity: 0.1;
+.introduction nav .nav-links :hover {
+    opacity: 0.8;
 }
 
 .countryFlag {
     width: 30px;
     height: 20px;
+}
+
+.logo {
+    padding-top: 15%;
+    font-size: 112px;
+    font-family: Ink Free;
+    text-align: center;
+}
+
+.actions-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.SiteLogo p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background: #99cee0;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+a:visited,
+a:active,
+a:link {
+    color: white;
 }

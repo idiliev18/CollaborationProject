@@ -1,11 +1,132 @@
- /* background-image: url("../img/mission.jpg"); */
- 
- * {
-     margin: 0;
-     padding: 0;
-     font-family: "Open Sans", sans-serif;
-     box-sizing: border-box;
-     overflow-y: hidden;
-     overflow-x: hidden;
- }
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.introduction {
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    background: url("../img/goal.jpg") no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+.introduction .nav-animation {
+    background-color: #014e78;
+    border: none;
+    position: fixed;
+    width: 100%;
+    min-height: 7vh;
+}
+
+.introduction nav {
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.10s;
+    transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 1vh;
+    border-bottom: 1.5px solid lightblue;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #014e78;
+    opacity: 0.9;
+}
+
+.introduction nav #logo {
+    color: lightblue;
+    font-family: 'Courgette', cursive;
+    padding: 0px 25px;
+    flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.introduction nav .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: distribute;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    flex-basis: 60%;
+}
+
+.introduction nav .nav-links a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.introduction nav .nav-links :hover {
+    opacity: 0.8;
+}
+
+.countryFlag {
+    width: 30px;
+    height: 20px;
+}
+
+.box {
+    width: 350px;
+    background: lightblue;
+    padding: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    color: black;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    color: #b9b9b9;
+}
+
+.box li a:hover {
+    color: #b9b9b9;
+}
