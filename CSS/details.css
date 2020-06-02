@@ -35,13 +35,13 @@ p {
 .photo {
     top: 70px;
     width: 450px;
-    right: 40%;
     padding-top: 20px;
+    margin: auto;
 }
 
 .bordered {
     border: 3px solid black;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 15px;
     border-radius: 15px;
     padding-left: 15px;

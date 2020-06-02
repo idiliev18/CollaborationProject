@@ -3,6 +3,7 @@ $(document).ready(function() { // run when the whole site is loaded
     translate("en");
 
     $(".translate-button").on("click", function() {
+        console.log("keks");
         translate($(this).data("lng"));
     });
 

@@ -398,8 +398,19 @@ var textTranslation = {
     "um": {
         'en': "Our Mission",
         'bg': "Нашата мисия"
+    },
+    "how-invented": {
+        'en': "How is it invented:",
+        'bg': "Как е изобретено:"
+    },
+    "created-by": {
+        'en': "Created by:",
+        'bg': "Изобретено от:"
+    },
+    "how-used": {
+        'en': "How it was used:",
+        'bg': "Как се е ползвало:"
     }
-
 
 
 }
