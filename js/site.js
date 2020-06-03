@@ -7,6 +7,7 @@ $(document).ready(function() { // run when the whole site is loaded
         translate($(this).data("lng"));
     });
 
+
     // select all 'a' atributes that contain in their href '#'
     $('a.InfoButton').on('click', function(e) {
 

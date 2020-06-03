@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
+    font-size: 20px;
 }
 
 .introduction .nav-animation {
@@ -42,7 +43,7 @@ body {
     color: lightblue;
     font-family: 'Courgette', cursive;
     padding: 0px 25px;
-    flex-basis: 50%;
+    flex-basis: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

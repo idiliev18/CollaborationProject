@@ -6,14 +6,14 @@ var cardText = {
 
         'text': {
             'en': `The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044. It describes how soldiers found their way by using a fish-shaped piece of magnetized iron floating in a bowl of water when the sky was too cloudy to see the stars. The compass was invented more than 2000 years ago. The first compasses were made of lodestone, which is a naturally magnetized stone of iron, in Han dynasty China. Later compasses were made of iron needles, magnetized by striking them with a lodestone.`,
-            'bg': `Първото окончателно споменаване на магнитен компас датира от китайска книга, завършена през 1044 г. В него се описва как войниците са намерили своя път, като са използвали парче магнетизирано желязо във формата на риба, плуващо в купа с вода, когато небето е било твърде мътно, за да видят звездите , Компасът е изобретен преди повече от 2000 години. Първите компаси са направени от ломестон, който е естествено намагнетизиран камък от желязо, в династия Хан в Китай. По-късните компаси бяха направени от железни игли, намагнетизирани, като ги удряха с локум.`
+            'bg': `Първото окончателно споменаване на магнитен компас датира от китайска книга, завършена през 1044 г. В нея се описва как войниците са намерили своя път, като са използвали парче магнетизирано желязо във формата на риба, плуващо в купа с вода, когато небето е било твърде мътно, за да видят звездите. Компасът е изобретен преди повече от 2000 години. Първите компаси са направени от ломестон, който е естествено намагнетизиран камък от желязо. По-късните компаси са били направени от железни игли, намагнетизирани, като са удряни с локум.`
         },
         "details": {
             "bg": {
                 "title": `Компас`,
-                "createdBy": `Първият магнетитен компас е изобретен в Китай`,
+                "createdBy": `Първият магнитен компас е бил изобретен в Китай`,
                 "howInvented": `Първото сигурно споменаване на магнитният компас е от китайска книга, завършена през 1044 година`,
-                "howUsed": `Първоначало е бил използван за гадаене, `
+                "howUsed": `Първоначално е бил използван за гадаене и за намиране на скъпоценни скъпоценни камъни и във Фън Шуй, но след време хората открили, че може да се използва за навигация, също се е използвало за ориентация и навигация по време на китайската династия.`
             },
             "en": {
                 "title": `The first magnetic compass`,
@@ -36,8 +36,8 @@ var cardText = {
             "bg": {
                 "title": `Механичен часовник`,
                 "createdBy": `Часовникът на катедралата Солсбъри е голям часовник с кула с желязна рамка без циферблат в катедралата в Солсбъри, Англия. Предполага се, че датира от около 1386 г., той е добре запазен пример за най-ранния тип механичен часовник и е най-старият работещ часовник в света.`,
-                "howInvented": `Височината на рамката е 1,24 м, ширината 1,29 м, а дълбочината 1,06 м. Голямото колело се завърта веднъж на 3600 секунди (1 час), така че колелото се завърта веднъж на 360 секунди. По този начин един размах отнема 8 секунди, или 4 секунди за половин замах. Тоест колелото с намотателната цев се завърта обратно на часовниковата стрелка, а другото колело се завърта по посока на часовниковата стрелка.`,
-                "howUsed": `Механичният часовник се използваше в катедралите, за да отбележи времето, когато ще се провеждат събития. И сега всеки го използва, за да вижда времето.`
+                "howInvented": `Височината на рамката е 1,24 м, ширината 1,29 м, а дълбочината 1,06 м. Голямото колело се завърта веднъж на 3600 секунди (1 час), така че помощните колела се завъртат веднъж на 360 секунди. По този начин един размах отнема 8 секунди, или 4 секунди за половин замах. Тоест колелото с намотателната цев се завърта обратно на часовниковата стрелка, а другото колело се завърта по посока на часовниковата стрелка.`,
+                "howUsed": `Механичният часовник се е използвал в катедралите, за да отбелязва времето, когато са се провеждали събития. И сега всеки човек го използва, за да вижда колко е часът.`
             },
             "en": {
                 "title": `Mechanical Clock`,
@@ -83,13 +83,13 @@ var cardText = {
                 "title": `Парен двигател`,
                 "createdBy": `Джеймс Уат разработва дизайна периодично от 1763 до 1775 г. с подкрепата на Матю Бултън.`,
                 "howInvented": `Дизайнът на Уат спестява толкова повече гориво в сравнение с по-ранните проекти, че те са били лицензирани въз основа на количеството гориво, което спестяват. Уат никога не престава да разработва парната машина, въвеждайки две конструкции на цилиндъра и различни системи за излитане на ротационна мощност. Дизайнът на Уат става синоним на парните двигатели и минават много години преди значително нови дизайни да започнат да заменят основния дизайн на Уат.`,
-                "howUsed": `Парната машина се е използвала до 16-ти или 17-ти век. Въпреки това, тя придобива повече известност и става по-актуална в индустриалната революция.`
+                "howUsed": `Парната машина се е използвала до 18-ти или 19-ти век. Въпреки това, тя придобива повече известност и става по-актуална в индустриалната революция.`
             },
             "en": {
                 "title": `Steam engine`,
                 "createdBy": `James Watt occasionally developed the design from 1763 to 1775 with support from Matthew Boulton.`,
                 "howInvented": `Watt's design saved so much more fuel compared to earlier designs that they were licensed based on the amount of fuel they would save. Watt never ceased developing the steam engine, introducing two cylinder designs and various systems for taking off rotary power. Watt's design became synonymous with steam engines, and it was many years before significantly new designs began to replace the basic Watt design.`,
-                "howUsed": `The use of the steam engine is traceable to the 16th and 17th centuries. However, it gained more prominence and became more relevant in the industrial revolution.`
+                "howUsed": `The use of the steam engine is traceable to the 18th and 19th centuries. However, it gained more prominence and became more relevant in the industrial revolution.`
             }
 
         }
@@ -104,15 +104,15 @@ var cardText = {
         "details": {
             "bg": {
                 "title": `Параход`,
-                "createdBy": `Ранни опити за захранване на лодка с пара са направени от френския изобретател Денис Папин и английския изобретател Томас Нюкомен.`,
-                "howInvented": `Ранен дизайн на парна лодка е описан и патентован от английския лекар Джон Алън през 1729г.`,
-                "howUsed": `Денис Папин предлага да се приложи тази парна помпа за работа на лодка с лопатка и се опитва да пусне на пазара идеята си във Великобритания. Нюкомен е бил в състояние да произвежда механична сила, но произвежда постъпателно движение и е бил много голям и тежък.`,
+                "createdBy": `Робърт Фултън е бил американски инженер и изобретател, който е широко кредитиран за разработването на първия успешен параход.`,
+                "howInvented": `Когато се връща във Филаделфия, Фултън се фокусира към рисуването и търсенето на спонсор. Местните търговци финансират преминаването му в Лондон през 1787 г. Той се запознава с нови изобретения за задвижване на лодки: водна струя, изхвърляна от парна помпа и едно-единствено, механично гребло. Неговите собствени експерименти го накараха да заключи, че няколко въртящи се гребла на кърмата биха били най-ефективни.`,
+                "howUsed": `Успехът на парахода на Фултън променя речния трафик и търговията по големите американски реки.`,
             },
             "en": {
                 "title": `Steamboat`,
-                "createdBy": `Early attempts at powering a boat by steam were made by the French inventor Denis Papin and the English inventor Thomas Newcomen.`,
-                "howInvented": `A steamboat was described and patented by English physician John Allen in 1729.`,
-                "howUsed": `Denis Papin proposed applying this steam pump to the operation of a paddlewheel boat and tried to market his idea in Britain. Newcomen's was able to produce mechanical power, but produced reciprocating motion and was very large and heavy.`
+                "createdBy": `Robert Fulton was an American engineer and inventor who is widely credited for developing the first successful steamboat.`,
+                "howInvented": `When he returned to Philadelphia, Fulton applied himself to painting and the search for a sponsor. Local merchants financed his passage to London in 1787. He became acquainted with new inventions for propelling boats: a water jet ejected by a steam pump and a single, mechanical paddle. His own experiments led him to conclude that several revolving paddles at the stern would be most effective.`,
+                "howUsed": `The success of Fulton's steamboat changed river traffic and trade on major American rivers.`
             }
 
         }
@@ -606,8 +606,8 @@ var cardText = {
     "mp3-player": {
         'photo': `https://regmedia.co.uk/2008/03/10/rio_300_1.jpg`,
         'text': {
-            'en': `In 1981, Kane Kramer filed for a UK patent for the IXI, the first Digital Audio Player. UK patent 2115996 was issued in 1985, and U.S. Patent 4,667,088 was issued in 1987. The player was as big as a credit card and had a small LCD screen, navigation and volume buttons and would have held at least 8MB of data in a solid-state bubble memory chip with a capacity of 3 and 1/2 minutes' worth of audio.`,
-            'bg': `През 1981 г. Кейн Крамер подава патент на Обединеното кралство за IXI, първият цифров аудио плейър. Патент на Великобритания 2115996 е издаден през 1985 г., а патент на САЩ 4,667,088 е издаден през 1987 г. Плеърът е голям колкото кредитна карта и има малък LCD екран, бутони за навигация и сила на звука и би държал най-малко 8MB данни в твърд държавен чип за балон памет с капацитет около 3 минути аудио звук.`
+            'en': `In 1997, Kane Kramer filed for a UK patent for the IXI, the first Digital Audio Player. UK patent 2115996 was issued in 1985, and U.S. Patent 4,667,088 was issued in 1987. The player was as big as a credit card and had a small LCD screen, navigation and volume buttons and would have held at least 8MB of data in a solid-state bubble memory chip with a capacity of 3 and 1/2 minutes' worth of audio.`,
+            'bg': `През 1997 г. Кейн Крамер подава патент на Обединеното кралство за IXI, първият цифров аудио плейър. Патент на Великобритания 2115996 е издаден през 1985 г., а патент на САЩ 4,667,088 е издаден през 1987 г. Плеърът е голям колкото кредитна карта и има малък LCD екран, бутони за навигация и сила на звука и би държал най-малко 8MB данни в твърд държавен чип за балон памет с капацитет около 3 минути аудио звук.`
         },
         "details": {
             "bg": {
@@ -634,9 +634,9 @@ var cardText = {
         },
         "details": {
             "bg": {
-                "title": ``,
-                "createdBy": ``,
-                "howInvented": ``,
+                "title": `Тъчскрийн`,
+                "createdBy": `Първият тъчскрийн е избобретен през 1972 година от Ерик Джонсън, койото е работил в Кралско радарно заведение в Малвърн, Англия`,
+                "howInvented": `Ерик Джонсон на Кралското радарно заведение, което се намира в Малвърн АНглия, описва неговата работа по тъчскрий в кратка статия публикувана през 1965 година и след това изцяло - със снимки и диаграми - в статия, публикувана през 1967 г. Прилагането на технологията на допир за контрол на въздушното движение е описана в статия, публикувана през 1968 г. Франк Бек и Бент Стумп, инженери от CERN, разработиха прозрачен сензорен екран в началото на 70-те години`,
                 "howUsed": ``
             },
             "en": {
@@ -718,3 +718,31 @@ var cardText = {
         }
     }
 };
+
+function replaceElementText1(item, text) {
+    if (!item.is("button")) {
+        item.html(text);
+    } else {
+        item.text(text);
+    }
+}
+
+function translate1(langId, cat) {
+    currentLanguage = langId;
+
+    // Gets all tags that have 'data-lang' attribute present
+    $("[data-lang1]")
+        .each(function() {
+            let item = $(this);
+            if (cardText.hasOwnProperty(cat) && cardText[cat].details.hasOwnProperty(langId)) {
+                let text = cardText[cat].details[langId][item.data("lang1")];
+                replaceElementText1(item, text);
+            } else {
+                replaceElementText1(item, "<font color='red'>" + item.data("lang1") + "</font>");
+            }
+        })
+};
+
+function getTranslatedText(elementId) {
+    return cardText[elementId][currentLanguage];
+}
