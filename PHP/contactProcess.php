@@ -13,7 +13,6 @@ mysqli_close($db_connect);
         $to='collabcontactform@gmail.com';
 		$subject='Form Submission';
 		$msg="Name: ".$username."\n"."Email: ".$email."\n"."IP: ".$ip."\n\n"."Message: ".$message;
-		echo $msg;
 		$headers="From: ".$email;
 mail($to, $subject, $msg, $headers);
 
@@ -21,5 +20,5 @@ mail($to, $subject, $msg, $headers);
 ?>
 
 <script>
-	window.location.href = "../contact.html?note=success";
+	window.location.href = "../html/contact.html?note=success";
 </script> 

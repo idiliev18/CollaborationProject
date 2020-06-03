@@ -410,6 +410,10 @@ var textTranslation = {
     "how-used": {
         'en': "How it was used:",
         'bg': "Как се е ползвало:"
+    },
+    "top": {
+        'en': "Top",
+        'bg': "Начало"
     }
 
 
@@ -425,7 +429,7 @@ function replaceElementText(item, text) {
     }
 }
 
-function translate(langId) {
+function translateLabel(langId) {
     currentLanguage = langId;
 
     // Gets all tags that have 'data-lang' attribute present

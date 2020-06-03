@@ -8,8 +8,8 @@ $(function() {
 
     $(".translate-button").on("click", function() {
         console.log("keks");
-        translate1($(this).data("lng"), params[1]);
-        translate($(this).data("lng"));
+        translateContent($(this).data("lng"), params[1]);
+        translateLabel($(this).data("lng"));
     });
 
     //declaring new variables that assigns the new data from the object cardText in the details property

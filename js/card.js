@@ -11,15 +11,15 @@ var cardText = {
         "details": {
             "bg": {
                 "title": `Компас`,
-                "createdBy": `Първият магнитен компас е бил изобретен в Китай`,
-                "howInvented": `Първото сигурно споменаване на магнитният компас е от китайска книга, завършена през 1044 година`,
-                "howUsed": `Първоначално е бил използван за гадаене и за намиране на скъпоценни скъпоценни камъни и във Фън Шуй, но след време хората открили, че може да се използва за навигация, също се е използвало за ориентация и навигация по време на китайската династия.`
+                "createdBy": `Първият магнитен компас е бил изобретен в Китай.`,
+                "howInvented": `Първото сигурно споменаване на магнитният компас е от китайска книга, завършена през 1044 година.`,
+                "howUsed": `Първоначално е бил използван за гадаене и за намиране на скъпоценни камъни и във Фън Шуй, но след време хората открили, че може да се използва за навигация, също се е използвало за ориентация и навигация по време на китайската династия.`
             },
             "en": {
                 "title": `The first magnetic compass`,
                 "createdBy": `The first magnetic compass was invented in China.`,
                 "howInvented": `The first definitive mention of a magnetic compass dates from a Chinese book finished in 1044.`,
-                "howUsed": `At first, it was used for divination, fortune-telling and geomancy, for finding precious gems and in Feng Shui but in time people discovered that it can be used for navigation, also was used for orientation and navigation during the Chinese Song Dynasty.`
+                "howUsed": `At first, it was used for fortune-telling and for finding precious gems and in Feng Shui but in time people discovered that it can be used for navigation, also was used for orientation and navigation during the Chinese Song Dynasty.`
             }
 
         }
@@ -727,7 +727,7 @@ function replaceElementText1(item, text) {
     }
 }
 
-function translate1(langId, cat) {
+function translateContent(langId, cat) {
     currentLanguage = langId;
 
     // Gets all tags that have 'data-lang' attribute present
